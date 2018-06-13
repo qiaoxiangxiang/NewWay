@@ -144,6 +144,10 @@
 
 .case_school_select .case_school_div {
 	border-color: #ec282e;
+	padding: 6px 10px 28px;
+	box-shadow: 0 0 30px #eee;
+	left: -10px;
+	transition: .1s;
 }
 
 .case_school_div {
@@ -155,8 +159,19 @@
 	border-bottom: 1px solid #e6e6e6;
 }
 
+.case_img_div {
+	width: 275px;
+	overflow: hidden;
+	height: 174px;
+}
+
 .case_school img {
 	display: inline-block;
+	width: 275px;
+}
+
+.case_school_select img {
+	transform: scale(1.5);
 }
 
 .case_school:nth-child(3n) {
@@ -174,6 +189,10 @@
 
 .case_school_select .school_name,.case_school_select .school_detail{
 	color:#ec282e;
+}
+
+.case_school_select .school_detail {
+	right: 10px;
 }
 
 .school_style {

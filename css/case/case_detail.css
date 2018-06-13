@@ -1,0 +1,174 @@
+.case_title_div {
+	position: relative;
+}
+
+.back_list {
+	display: inline-block;
+	height: 33px;
+	line-height: 33px;
+	padding: 0 15px;
+	background-color: #ec282e;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 38.5px;
+}
+
+.back_list img {
+	display: inline-block;
+	margin-right: 7px;
+}
+
+
+.logo_div {
+	padding: 43px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.logo_img {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin-right: 32px;
+}
+
+.logo_desc {
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+
+.case_school_name {
+	font-size: 24px;
+	color: #333;
+	margin: 18px 0 12px;
+	display: inline-block;
+}
+
+.detail_case {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.school_photo {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.school_project {
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+	padding: 30px 0;
+}
+
+.school_project span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ec282e;
+	margin-right: 13px;
+}
+
+.case_detail_text {
+	text-align: left;
+	font-size: 12px;
+	color: #666;
+	line-height: 34px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ececec;
+}
+
+
+
+
+/*轮播*/
+.content_center_img{
+    width: 1200px;
+    height: 619px;
+    margin-top: 44px;
+}
+
+.left_img{
+    width: 927px;
+    height: 619px;
+    float: left;
+}
+
+.left_image{
+    width: 100%;
+    height: 100%;
+}
+
+.right_img{
+    width: 211px;
+    height: 479px;
+    float: right;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    padding: 67px 0;
+}
+.fanhui,.top_banner,.bottom_banner{
+    width: 211px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+.top_banner,.bottom_banner{
+    background: #efefef; 
+}
+
+.top_banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bottom_banner {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.top_banner:hover{
+    background: #ec282e;
+    color: #fff;
+}
+.bottom_banner:hover{
+    background: #ec282e;
+    color: #fff;
+}
+
+.banner_img{
+    width: 211px;
+    height: 480px;
+    overflow: hidden;
+}
+
+.banner_box{
+    width: 211px;
+    transition: all 1s;
+}
+
+.banner_box_img{
+    width: 211px;
+    height: 152px;
+    margin-bottom: 12px;
+}
+
+.banner_box_img:nth-last-of-type(1){
+    margin-bottom: 0;
+    width: 211px;
+}
+
+.banner_box_img:nth-of-type(1){
+    border: 2px solid #ec282e;
+    width: 207px;
+}
