@@ -1,0 +1,194 @@
+.content {
+	background: url("../../img/case/case_02.png") no-repeat top center;
+	min-width: 1200px;
+}
+
+.content_div {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 107px;
+}
+
+
+.content_case {
+	padding-top: 28px;
+}
+
+.case_title1 {
+	font-size: 34px;
+	color: #333;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	position: relative;
+}
+
+.case_title2 {
+	font-size: 20px;
+	color: #444;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin: 22px 0 136px;
+}
+
+.case_red_color {
+	color: #ec282e;
+}
+
+.case_title_img {
+	height: 3px;
+	width: 84px;
+	background-color: #9fa1aa;
+	display: inline-block;
+	position: absolute;
+	top: 13.5px;
+}
+
+.case_title_img1 {
+	left: 244px;
+}
+
+.case_title_img2 {
+	right: 244px;
+}
+
+.case_content {
+	background-color: #fff;
+	padding: 0 38px;
+}
+
+.case_title_div {
+	padding: 29px 0;
+	border-bottom: 1px solid #ececec;
+}
+.case_title3 {
+	font-size: 24px;
+	color: #333;
+	line-height: 24px;
+	height: 24px;
+}
+
+.case_english {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #999;
+	margin-top: 11px;
+}
+
+.case_content_left {
+	float: left;
+	width: 178px;
+	background: #f4f4f4;
+}
+
+.case_content_right{
+	float: right;
+	width: 906px;
+	padding-left: 40px;
+}
+
+.toggle_title  {
+	height: 47px;
+	line-height: 47px;
+	color: #333;
+	padding-left: 12px;
+	cursor: pointer;
+}
+
+.toggle_title_select {
+	background-color: #ec282e;
+	color: #fff;
+}
+
+.case_list2 {
+	display: none;
+}
+
+.case_left_list2 {
+	height: 47px;
+	line-height: 47px;
+	color: #333;
+	cursor: pointer;
+	margin-top: 18px;
+	position: relative;
+	font-size: 14px;
+	padding-left: 24px;
+}
+
+.case_left_list2_select {
+	color: #ec282e;
+}
+
+.case_left_list2_select span {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 13px;
+	width: 3px;
+	height: 21px;
+	background-color: #ec282e;
+}
+
+.case_school {
+	float: left;
+	margin-right: 40px;
+	width: 275px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 28px;
+	height: 270px;
+	cursor: pointer;
+}
+
+.case_school_select .case_school_div {
+	border-color: #ec282e;
+}
+
+.case_school_div {
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	padding-bottom: 28px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.case_school img {
+	display: inline-block;
+}
+
+.case_school:nth-child(3n) {
+	margin-right: 0;
+}
+
+.school_name {
+	color: #333;
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	padding: 24px 0 13px;
+	text-align: left;
+}
+
+.case_school_select .school_name,.case_school_select .school_detail{
+	color:#ec282e;
+}
+
+.school_style {
+	font-size: 12px;
+	color: #777;
+	height: 12px;
+	line-height: 12px;
+	text-align: left;
+}
+
+.school_detail {
+	position: absolute;
+	right: 0;
+	bottom: 38px;
+	font-size: 20px;
+	color: #b9b9b9;
+
+}
