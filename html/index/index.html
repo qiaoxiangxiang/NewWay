@@ -31,6 +31,7 @@
 			    </div>
 			    <div class="swiper-pagination"></div>
 			</div>
+            <!-- 人才 -->
 			<div class="index_talents">
 				<div class="index_talents_div">
 					<p class="index_talents_title1">
@@ -71,8 +72,18 @@
 					</ul>
 				</div>
 			</div>
+            <!--  新道云-->
+            <div class="index_newway">
+                <div class="index_newway_div">
+                    <p class="index_talents_title1 index_talents_title1_newway">
+                        <img src="../../img/home/index_03.png" class="index_talents_left index_talents_left_newway">新道<span class="index_red_color">云</span>
+                        <img src="../../img/home/index_05.png" class="index_talents_right index_talents_right_newway">
+                    </p>
+                    <p class="index_talents_title2 index_talents_title2_newway">协同育人创新服务云平台，面向育人、服务、治理全场景，提供动态更新的相伴协同育人专业服务</p>
+                </div>    
 
 
+            </div>
 
 
     
@@ -139,7 +150,9 @@
     }) 
 
     $(".index_talents_list").on("mouseenter", function() {
-    	$(this).css({"color": "#fff"})
+    	$(this).addClass("index_talents_list_select").siblings().removeClass("index_talents_list_select");
+    }).on("mouseleave", function () {
+        $(this).removeClass("index_talents_list_select").siblings().removeClass("index_talents_list_select");
     })
 
 </script>
