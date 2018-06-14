@@ -45,3 +45,117 @@ $(".box_top").append(`
 </ul>
 </div>
 `)
+
+$(".journalism_right").append(`
+    <div class="content_right">
+                <div class="new_look">
+                    <div class="new_look_h4">
+                        <span class="new_look_h4_span"></span>
+                        <h4>相关新闻</h4>
+                    </div>
+                    <ul class="new_look_ul">
+                        <a href="dynamic_detail.html">
+                            <li class="new_look_ul_li">
+                                <div class="new_look_divLeft">
+                                    <div class="new_look_divLeft_box">
+                                        <img class="new_look_divLeft_img" src="../../img/journalism/journalism_03.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="new_look_divRight">
+                                    <p class="new_look_divRight_p1">新道科技亮相2018年教育部 产学合作、协同育人项目...</p>
+                                    <p class="new_look_divRight_p2">
+                                        <span>2017-10-28</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="dynamic_detail.html">
+                            <li class="new_look_ul_li">
+                                <div class="new_look_divLeft">
+                                    <div class="new_look_divLeft_box">
+                                        <img class="new_look_divLeft_img" src="../../img/journalism/journalism_09.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="new_look_divRight">
+                                    <p class="new_look_divRight_p1">腾讯为了给自己打上“ 科学发烧友 ” 标签可以说是很努力了
+                                    </p>
+                                    <p class="new_look_divRight_p2">
+                                        <span>2017-10-28</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="dynamic_detail.html">
+                            <li class="new_look_ul_li">
+                                <div class="new_look_divLeft">
+                                    <div class="new_look_divLeft_box">
+                                        <img class="new_look_divLeft_img" src="../../img/journalism/journalism_12.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="new_look_divRight">
+                                    <p class="new_look_divRight_p1">腾讯为了给自己打上“ 科学发烧友 ” 标签可以说是很努力了
+                                    </p>
+                                    <p class="new_look_divRight_p2">
+                                        <span>2017-10-28</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="dynamic_detail.html">
+                            <li class="new_look_ul_li">
+                                <div class="new_look_divLeft">
+                                    <div class="new_look_divLeft_box">
+                                        <img class="new_look_divLeft_img" src="../../img/journalism/journalism_15.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="new_look_divRight">
+                                    <p class="new_look_divRight_p1">腾讯为了给自己打上“ 科学发烧友 ” 标签可以说是很努力了
+                                    </p>
+                                    <p class="new_look_divRight_p2">
+                                        <span>2017-10-28</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="dynamic_detail.html">
+                            <li class="new_look_ul_li">
+                                <div class="new_look_divLeft">
+                                    <div class="new_look_divLeft_box">
+                                        <img class="new_look_divLeft_img" src="../../img/journalism/journalism_17.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="new_look_divRight">
+                                    <p class="new_look_divRight_p1">腾讯为了给自己打上“ 科学发烧友 ” 标签可以说是很努力了
+                                    </p>
+                                    <p class="new_look_divRight_p2">
+                                        <span>2017-10-28</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="dynamic_detail.html">
+                            <li class="new_look_ul_li">
+                                <div class="new_look_divLeft">
+                                    <div class="new_look_divLeft_box">
+                                        <img class="new_look_divLeft_img" src="../../img/journalism/journalism_21.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="new_look_divRight">
+                                    <p class="new_look_divRight_p1">腾讯为了给自己打上“ 科学发烧友 ” 标签可以说是很努力了
+                                    </p>
+                                    <p class="new_look_divRight_p2">
+                                        <span>2017-10-28</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+`)
