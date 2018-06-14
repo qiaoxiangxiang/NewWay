@@ -155,12 +155,11 @@
             }
             // top_banner --
             function topBanner(){
-              console.log(num)
                 if(num<=0){
                     $(".banner_box").css({"margin-top":0+"px"})
                 }else{
-                    if(num>=Gnum-4){
-                        $(".banner_box").css({"margin-top":0-(num-3)*125+"px"})
+                    if(num>=Gnum-3){
+                        $(".banner_box").css({"margin-top":-(num-2)*164+"px"})
                     }else{
                         $(".banner_box").css({"margin-top":0+"px"})
                     }
@@ -173,14 +172,12 @@
             }
             // bottom_banner ++
             function bottomBanner(){
-              console.log(num)
                 $(".banner_box_img").css({"border":"none","width":211+"px"})
                 $(".banner_box_img").eq(num).css({"border":"2px solid #ec282e","width":207+"px"})
-                if(num<Gnum-4){
-                    $(".banner_box").css({"margin-top":0-num*125+"px"})
-                }else{
-                   $(".banner_box").css({"margin-top":0-(Gnum-4)*125+"px"})
+                if (num<=Gnum-3 ) {
+                  $(".banner_box").css({"margin-top":-num*164+"px"})
                 }
+                
                 // src 获取
                 var src = $(".banner_box_img").eq(num).attr("src")
                 $(".left_image").attr("src",src)

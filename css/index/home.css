@@ -1,0 +1,160 @@
+.swiper-container {
+	height: 698px;
+	min-width: 1200px;
+	cursor: pointer;
+}
+
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+	background: #fff;
+	width: 29px;
+	height: 10px;
+	border-radius: 5px;
+	opacity: .8;
+}
+
+.swiper-pagination-bullet-active {
+	background: #ec282e;
+	width: 49px;
+	height: 10px;
+	border-radius: 5px;
+}
+
+.index_talents {
+	background: #f4f4f7;
+	padding: 47px 0 53px;
+}
+
+.index_talents_div {
+	width: 1200px;
+	margin: 0 auto;
+	background: skyblue;
+}
+
+.index_talents_title1 {
+	position: relative;
+	height: 28px;
+	font-size: 28px;
+	line-height: 28px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}
+
+.index_red_color {
+	color: #ec282e;
+}
+
+.index_talents_left {
+	position: absolute;
+	left: 370px;
+	top: 7.5px;
+
+}
+
+.index_talents_right {
+	position: absolute;
+	right: 370px;
+	top: 7.5px;
+	
+}
+
+.index_talents_title2 {
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	margin: 24px 0 43px;
+}
+
+.index_talents_list {
+	width: 350px;
+	float: left;
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	margin-right: 75px;
+	height: 484px;
+}
+
+.index_talents_list:last-child {
+	margin-right: 0;
+}
+
+.index_talents_list img {
+	display: inline-block;
+}
+
+.index_talents_span1 {
+	display: inline-block;
+	width: 58px;
+	height: 4px;
+	background: #ec282e;
+	position: absolute;
+	top: 0;
+	left: 146px;
+}
+
+.index_talents_img1 {
+	margin: 45px 0;
+}
+
+.index_talents_title3 {
+	height: 22px;
+	line-height: 22px;
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+}
+
+.index_talents_title4 {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.index_talents_title5 {
+	margin: 20px 0;
+	line-height: 28px;
+	height: 105px;
+	font-size: 12px;
+	padding: 0 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.index_talents_to_detail {
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	padding: 0 29px;
+	background: linear-gradient(to right, #ff8d61, #e43e3e);
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+	position: absolute;
+	bottom: 28px;
+	left: 103px;
+}
+
+.index_talents_left_iconfont {
+	margin-left: 8px;
+}
+
+.index_talents_list_div {
+	position: relative;
+	height: 410px;
+	padding-bottom: 74px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

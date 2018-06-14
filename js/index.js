@@ -6,9 +6,9 @@ $(".box_top").append(`
     </div>
     <!-- 一级nav -->
     <ul class="nav">
-        <li class="nav_li">首页</li>
+        <a href="../index/index.html"><li class="nav_li">首页</li></a>
         <li class="nav_li">教育服务</li>
-        <li class="nav_li">示范案例</li>
+        <a href="../case/case_index.html"><li class="nav_li">示范案例</li></a>
         <li class="nav_li">教育研究</li>
         <li class="nav_li">技能竞赛</li>
         <li class="nav_li">新闻动态</li>
