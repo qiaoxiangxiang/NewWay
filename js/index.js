@@ -11,7 +11,7 @@ $(".box_top").append(`
         <a href="../case/case_index.html"><li class="nav_li">示范案例</li></a>
         <li class="nav_li">教育研究</li>
         <li class="nav_li">技能竞赛</li>
-        <li class="nav_li">新闻动态</li>
+        <a href="../journalism/journalism.html"><li class="nav_li">新闻动态</li></a>
         <li class="nav_li">合作与生态</li>
         <li class="nav_li">关于新道</li>
     </ul>

@@ -151,21 +151,23 @@
 
 .index_talents_list_div {
 	position: relative;
-	height: 410px;
+	height: 361px;
 	padding-bottom: 74px;
 	position: absolute;
 	left: 0;
 	top: 0;
 	background: #fff;
 	border-radius: 10px;
+	box-shadow: 0 0 30px #f0f0f3;
+	transition: .5s;
 }
 
 .index_talents_list_select .index_talents_list_div{
 	color: #fff;
 	background: url("../../img/home/index11.png") center center;
 	background-size: 100% 100%;
-	top: -10px;
-	transition: .5s;
+	top: -20px;
+	
 }
 
 .index_talents_list_select .index_talents_span1 {
@@ -203,5 +205,13 @@
 
 .index_talents_title2_newway {
 	color: #fff;
+}
+
+.index_newway_lives {
+	width: 1200px;
+	margin: 0 auto;
+	height: 1000px;
+	background: skyblue;
+
 }
 
