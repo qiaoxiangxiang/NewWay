@@ -1,10 +1,9 @@
 .content{
-    width: 1200px;
-    margin: 0 auto;
     position: relative;
-    z-index: 2;
-    background: #fff;
-    margin-top: 310px;
+    z-index: 1;
+    overflow: hidden;
+    min-width: 1200px;
+    background: url("../../img/journalism/journalism_bj_01.png") no-repeat top center;
 }
 .content::after{
     clear:both;
@@ -14,18 +13,17 @@
     height:0;
     visibility:hidden;
 }
-.bj_img{
-    width: 1920px;
-    position: absolute;
-    top: 0;
-    z-index: 0;
+.content_content{
+    width: 1200px;
+    margin: 402px auto 0;
+    background: #fff;
 }
 /* 左侧 */
 .content_left{
     width: 738px;
     float: left;
-    padding: 20px 0;
-    margin-left: 40px;
+    padding: 20px 92px 0 40px;
+    background: #fff;
 }
 .content_journalism_list{
     width: 100%;
@@ -179,8 +177,9 @@
     width: 290px;
     display: inline-block;
     float: right;
-    margin-top: 40px;
-    margin-right: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background: #fff;
 }
 .new_look{
     margin-bottom: 30px;
@@ -362,7 +361,7 @@
 /*页码*/
 .page{
     width: 100%;
-    height: 120px;
+    height: 128px;
     overflow: hidden;
 }
 .page_box,.page_box_ul{

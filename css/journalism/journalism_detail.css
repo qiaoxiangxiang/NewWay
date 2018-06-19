@@ -1,10 +1,12 @@
 .content_left{
     width: 765px;
+    padding-right: 65px;
 }
 .journalism_detail_content{
     font-size: 14px;
     color: #333;
     line-height: 30px;
+    padding-bottom: 140px;
 }
 .journalism_detail_title{
     padding-top: 20px;

@@ -1,5 +1,4 @@
-$(".box_top").append(`
-<div class="top">
+$(".top").append(`
 <div class="top_box">
     <div class="logo">
         <img class="logo_img" src="../../img/index/top_02.png" alt="">
@@ -43,7 +42,6 @@ $(".box_top").append(`
 
     </li>
 </ul>
-</div>
 `)
 
 $(".journalism_right").append(`
@@ -157,5 +155,32 @@ $(".journalism_right").append(`
                         </a>
                     </ul>
                 </div>
+            </div>
+`)
+$(".bottom").append(`
+    <div class="bottom_top clear">
+                <div class="bottom_top_left">
+                    <div class="phone clear">
+                        <img class="phone_img" src="../../img/index/case_24.png">
+                        <p class="phone_mobile">全国客服热线<br>
+                            <span>400 - 6600 - 599</span>
+                        </p>
+                    </div>
+                    <p class="contact_us">联系我们   |     法律声明</p>
+                    <p class="address">北京总部地址：北京市海淀区北清路68号用友软件园　三亚总部地址：海南省三亚市崖城镇创意产业园内</p>
+                </div>
+                <div class="bottom_top_right clear">
+                    <div class="code_left">
+                        <img src="../../img/index/case_27.png">
+                        <p>新道科技公众号</p>
+                    </div>
+                    <div class="code_right">
+                        <img src="../../img/index/case_29.png">
+                        <p>新道云服务号</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="bottom_bottom">
+                <p>Copyright © 2018 新道科技股份有限公司 琼ICP备11002248号-3</p>
             </div>
 `)
