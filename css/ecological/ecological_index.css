@@ -1,1 +1,24 @@
-ecological_index.css
+.swiper-container {
+	height: 490px;
+	min-width: 1200px;
+}
+
+
+.swiper-pagination-bullet {
+    background: #fff;
+    width: 29px;
+    height: 10px;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+.swiper-pagination-bullet-active {
+	background: #ec282e;
+    width: 49px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.swiper-slide {
+	position: relative;
+}

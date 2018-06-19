@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6e029149-9f9f-44c1-a24f-f555d725f1c5" name="Default" comment="123">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ecological/ecological_index.css" afterPath="$PROJECT_DIR$/css/ecological/ecological_index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/case/case_detail.html" afterPath="$PROJECT_DIR$/html/case/case_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/ecological/ecological_index.html" afterPath="$PROJECT_DIR$/html/ecological/ecological_index.html" />
     </list>
     <ignored path="NewWay.iws" />
     <ignored path=".idea/workspace.xml" />
