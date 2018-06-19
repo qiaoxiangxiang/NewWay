@@ -184,3 +184,6 @@ $(".bottom").append(`
                 <p>Copyright © 2018 新道科技股份有限公司 琼ICP备11002248号-3</p>
             </div>
 `)
+//公共部分
+var height = window.innerHeight - $(".top").height() - $(".bottom").height();
+$(".content").css({"min-height":height+"px"})

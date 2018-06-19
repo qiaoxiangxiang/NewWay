@@ -1,0 +1,43 @@
+.ecological_entourage_box{
+    width: 570px;
+    height: 206px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 27px;
+    color: #666;
+    margin-bottom: 26px;
+}
+.ecological_entourage_box_img{
+    width: 193px;
+    height: 137px;
+    text-align: center;
+    line-height: 137px;
+    float: left;
+    background: #ffffff;
+    margin: 33px 0 0 40px;
+}
+.ecological_entourage_box_img img{
+    width: 90px;
+    height: 100px;
+    display: inline-block;
+}
+.ecological_entourage_box_content{
+    margin: 33px 0 0 30px;
+    float: right;
+    width: 260px;
+    margin-right: 44px;
+}
+.ecological_entourage_box_content_p1{
+    float: left;
+    height: 50px;
+}
+ical_entourage_box_content_p2{
+    float: left;
+}
+.ecological_entourage_box_content_title{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
