@@ -11,7 +11,7 @@ $(".top").append(`
         <li class="nav_li">教育研究</li>
         <li class="nav_li">技能竞赛</li>
         <a href="../journalism/journalism.html"><li class="nav_li">新闻动态</li></a>
-        <li class="nav_li">合作与生态</li>
+        <a href="../ecological/ecological_index.html" ><li class="nav_li">合作与生态</li></a>
         <li class="nav_li">关于新道</li>
     </ul>
 </div>
