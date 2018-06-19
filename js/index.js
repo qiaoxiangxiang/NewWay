@@ -52,7 +52,7 @@ $(".journalism_right").append(`
                         <h4>相关新闻</h4>
                     </div>
                     <ul class="new_look_ul">
-                        <a href="dynamic_detail.html">
+                        <a href="journalism_detail.html">
                             <li class="new_look_ul_li">
                                 <div class="new_look_divLeft">
                                     <div class="new_look_divLeft_box">
@@ -68,7 +68,7 @@ $(".journalism_right").append(`
                                 </div>
                             </li>
                         </a>
-                        <a href="dynamic_detail.html">
+                        <a href="journalism_detail.html">
                             <li class="new_look_ul_li">
                                 <div class="new_look_divLeft">
                                     <div class="new_look_divLeft_box">
@@ -85,7 +85,7 @@ $(".journalism_right").append(`
                                 </div>
                             </li>
                         </a>
-                        <a href="dynamic_detail.html">
+                        <a href="journalism_detail.html">
                             <li class="new_look_ul_li">
                                 <div class="new_look_divLeft">
                                     <div class="new_look_divLeft_box">
@@ -102,7 +102,7 @@ $(".journalism_right").append(`
                                 </div>
                             </li>
                         </a>
-                        <a href="dynamic_detail.html">
+                        <a href="journalism_detail.html">
                             <li class="new_look_ul_li">
                                 <div class="new_look_divLeft">
                                     <div class="new_look_divLeft_box">
@@ -119,7 +119,7 @@ $(".journalism_right").append(`
                                 </div>
                             </li>
                         </a>
-                        <a href="dynamic_detail.html">
+                        <a href="journalism_detail.html">
                             <li class="new_look_ul_li">
                                 <div class="new_look_divLeft">
                                     <div class="new_look_divLeft_box">
@@ -136,7 +136,7 @@ $(".journalism_right").append(`
                                 </div>
                             </li>
                         </a>
-                        <a href="dynamic_detail.html">
+                        <a href="journalism_detail.html">
                             <li class="new_look_ul_li">
                                 <div class="new_look_divLeft">
                                     <div class="new_look_divLeft_box">
