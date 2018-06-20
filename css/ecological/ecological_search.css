@@ -2,4 +2,97 @@
 	background: url("../../img/ecological/ecological_search_02.png") no-repeat top center;
 	min-width: 1200px;
 	padding-top: 88px;
+	margin: 0 auto;
 }
+
+.case_title_img1 {
+	left: 347px;
+}
+
+.case_title_img2 {
+	right: 347px;
+}
+
+.case_red_color {
+	color: #ec282e;
+	margin-left: 18px;
+}
+
+.case_title2 {
+	font-size: 18px;
+	color: #333;
+}
+
+.ecological_search_title {
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.ecological_search_div {
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	padding-top: 44px;
+	padding-bottom: 130px;
+}
+
+.ecological_search_div form {
+	margin: 48px 0 30px;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.ecological_search_div form input {
+	width: 520px;
+	height: 46px;
+	line-height: 46px;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	margin-bottom: 29px;
+	margin-right: 29px;
+	padding-left: 20px;
+}
+
+.ecological_search_div form input[type="submit"] {
+	color: #fff;
+	width: 193px;
+	height: 54px;
+	background-color: #ec282e;
+	outline: 0;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+.ecological_search_div table, .ecological_search_div table thead{
+	border:1px solid #dfdfdf;
+	border-collapse:collapse;
+}
+
+.ecological_search_div table th{
+	background: #636474;
+	color: #fff;
+	font-weight: normal;
+	height: 52px;
+	font-size: 16px;
+	border-right: 1px solid #dfdfdf;
+}
+
+.ecological_search_div table th:last-child {
+	border: 0;
+}
+
+.ecological_search_div table tr:nth-child(2n) {
+	background: #fbfbfb;
+}
+
+.ecological_search_div table td {
+	height: 50px;
+	text-align: center;
+	font-size: 12px;
+	color: #444;
+	border: 1px solid #dfdfdf;
+}
+
+

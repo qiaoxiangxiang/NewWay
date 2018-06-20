@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>明星伙伴详情</title>
+    <link rel="stylesheet"  href="../../css/index.css">
+    <link rel="stylesheet"  href="../../css/swiper.min.css">
+    <link rel="stylesheet"  href="../../css/case/case_index.css">
+    <link rel="stylesheet"  href="../../css/case/case_detail.css">
+    <link rel="stylesheet"  href="../../css/ecological/ecological_partner_detail.css">
+    <link rel="stylesheet"  href="../../css/iconfont.css">
+    <script src="../../js/jquery-2.1.4.js"></script>
+</head>
+<body>
+    <div id="app_body">
+        <div class="top">
+           <!-- 公共头部 -->
+        </div>
+
+        <div class="contents">
+           <div class="content_div">
+                <p class="case_title1">
+                    <span class="case_title_img case_title_img1"></span>
+                        产教融合<span class="case_red_color">协同育人</span>
+                    <span class="case_title_img case_title_img2"></span>
+                </p>
+                <p class="case_title2">SYNERGETIC AND COOPERATIVE EDUCATING PEOPLE</p>
+
+                <div class="case_content">
+                    <div class="case_title_div">
+                        <p class="case_title3">伙伴联盟</p>
+                        <p class="case_english">PARTNERS</p>
+                        <a href="ecological_index.html" class="back_list"><img src="../../img/case/case_39.png">返回列表</a>
+                    </div>
+                   <div class="logo_div clear">
+                       <img  class="logo_img_school" src="../../img/ecological/ecological_partner_detail_03.png">
+                       <p class="logo_desc">
+                           <span class="case_school_name">福建新客网络科技有限公司</span><br>
+                           公司地址：福州市鼓楼区六一北路328号金源花园B区金安大厦2405<br>
+                           公司官网：www.syn-edu.com<br>
+                           联 系 人：柯南兴 联系电话：13305010948<br>
+                       </p>
+                   </div>
+                   <div class="detail_case">
+                       <p class="school_project"><span></span>公司简介</p>
+                       <p class="case_detail_text">福建新客网络科技有限公司位于福建省福州市，注册资金人民币510万。公司多年来持续专注于教育信息化领域，致力于通过信息技术促进教育公平、有效、健康的发展。公司逐步从单纯的IT系统集成商成长为教育信息化平台与服务提供者，为学校与相关教育机构提供综合的信息化解决方案。
+                       </p>
+                       <p class="case_detail_text">
+                        新客网络在教育市场占据了绝对领先的市场占有，同时面对不断细分的职业教育、基础教育市场，推出了针对性、差异化的产品和方案。公司拥有多项科研成果和软件著作权，为福建省内多所学校提供了信息化规划与实施服务，形成了覆盖校园网、数据中心、管理信息系统、数字化学习、数据应用与决策分析、校园协同服务、校园移动应用等解决方案，引领国内教育信息化建设的潮流。
+                      </p>
+                   </div>
+                  
+                   <div class="detail_case">
+                        <div class="content_center_img">
+                            <div class="left_img">
+                                <img class="left_image" src="../../img/case/case_detail_11.png" alt="">
+                            </div>
+                            <div class="right_img">
+                                <div class="top_banner iconfont">
+                                    &#xe65d;
+                                </div>
+                                <div class="banner_img">
+                                    <div class="banner_box">
+                                       <img class="banner_box_img" src="../../img/case/case_detail_14.png" alt="">
+                                       <img class="banner_box_img" src="../../img/case/case_detail_18.png" alt="">
+                                       <img class="banner_box_img" src="../../img/case/case_detail_21.png" alt="">
+                                       <img class="banner_box_img" src="../../img/case/case_detail_14.png" alt="">
+                                       <img class="banner_box_img" src="../../img/case/case_detail_18.png" alt="">
+                                       <img class="banner_box_img" src="../../img/case/case_detail_21.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="bottom_banner iconfont">
+                                   &#xe65e;
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+
+                </div>
+           </div> 
+        </div>
+        
+        <div class="bottom"></div>
+    </div>
+</body>
+
+<script src="../../js/index.js"></script>
+<script>
+  window.onload = function (){
+            var num = 0;
+            var Gnum = $(".banner_box_img").length;
+
+            // 向上滚动
+            $(".top_banner").click(function(){
+                num--;
+                if(num<=0){
+                    num = 0;
+                }
+                topBanner()
+            })
+            // 向下滚动
+            $(".bottom_banner").click(function(){
+                num++;
+                if(num>=Gnum){
+                    num = Gnum-1;
+                }
+                bottomBanner()
+            })
+            // 图片点击
+            for(let i=0;i<$(".banner_box_img").length;i++){
+                $(".banner_box_img").eq(i).click(function(){
+                    if(num<i){
+                        num = i;
+                        bottomBanner();
+                    }else{
+                        num = i;
+                        topBanner();
+                    }
+                   
+                })
+            }
+            // top_banner --
+            function topBanner(){
+                if(num<=0){
+                    $(".banner_box").css({"margin-top":0+"px"})
+                }else{
+                    if(num>=Gnum-3){
+                        $(".banner_box").css({"margin-top":-(num-2)*164+"px"})
+                    }else{
+                        $(".banner_box").css({"margin-top":0+"px"})
+                    }
+                }
+                $(".banner_box_img").css({"border":"none","width":211+"px"})
+                $(".banner_box_img").eq(num).css({"border":"2px solid #ec282e","width":207+"px"})
+                // src 获取
+                var src = $(".banner_box_img").eq(num).attr("src")
+                $(".left_image").attr("src",src)
+            }
+            // bottom_banner ++
+            function bottomBanner(){
+                $(".banner_box_img").css({"border":"none","width":211+"px"})
+                $(".banner_box_img").eq(num).css({"border":"2px solid #ec282e","width":207+"px"})
+                if (num<=Gnum-3 ) {
+                  $(".banner_box").css({"margin-top":-num*164+"px"})
+                }
+                
+                // src 获取
+                var src = $(".banner_box_img").eq(num).attr("src")
+                $(".left_image").attr("src",src)
+            }
+        } 
+</script>
+</html>

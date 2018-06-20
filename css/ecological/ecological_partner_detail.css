@@ -1,0 +1,25 @@
+.contents {
+	background: url("../../img/ecological/ecological_search_02.png") no-repeat top center;
+}
+
+.case_title_img1 {
+	left: 347px;
+}
+
+.case_title_img2 {
+	right: 347px;
+}
+
+.case_red_color {
+	color: #ec282e;
+	margin-left: 18px;
+}
+
+.logo_img_school {
+	width: 166px;
+	height: 126px;
+}
+
+.case_school_name {
+	margin: 0;
+}

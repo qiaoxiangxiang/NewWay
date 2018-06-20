@@ -215,3 +215,48 @@
 
 }
 
+
+/*弹窗*/
+.index_position_fixed {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background:rgba(0,0,0,.6);
+	z-index: 2;
+}
+
+
+
+.index_fixed01 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 664px;
+	height: 824px;
+	margin-left: -332px;
+	margin-top: -412px;
+	background: #fff;
+	border-radius: 20px;
+
+	
+}
+
+.index_fixed01_title {
+	height: 83px;
+	line-height: 83px;
+	color: #333;
+	text-align: center;
+	background-color: #fcfcfc;
+	border-bottom: 1px solid #f2f2f2;
+	border-top-left-radius: 20px;	
+	border-top-right-radius: 20px;	
+	
+}
+
+.index_fixed01_title1 {
+	color: #ec272e;
+	font-size: 14px;
+}
+
