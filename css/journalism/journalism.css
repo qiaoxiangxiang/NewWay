@@ -13,6 +13,18 @@
     height:0;
     visibility:hidden;
 }
+/*banner title*/
+.ecological_content_title_name1,.ecological_content_title_name2{
+    font-size: 34px;
+    color: #fff;
+}
+.ecological_content_english{
+    color: #fff;
+}
+.ecological_content_xian{
+    background: #fff;
+}
+/*主体*/
 .content_content{
     width: 1200px;
     margin: 402px auto 0;

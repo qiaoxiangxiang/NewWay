@@ -10,6 +10,7 @@
     <link rel="stylesheet"  href="../../css/iconfont.css">
     <link rel="stylesheet"  href="../../css/index/home.css">
     <script src="../../js/jquery-2.1.4.js"></script>
+    <script src="../../js/index_top.js"></script>
     
 </head>
 <body>
@@ -102,12 +103,39 @@
         <!-- 弹窗 -->
         <div class="index_position_fixed">
             <!-- MAT弹窗 -->
+
             <div class="index_fixed01">
-                <p class="index_fixed01_title">免费申请试用</p>
-                <p class="index_fixed01_title1">请填写您的基本信息，我们将很快安排人员联系您</p>
-                <form>
+                <div class="position_close_img">
+                    <img src="../../img/home/index_close.png">
+                </div>
+                <div class="index_position_fixed_div">
+                    <p class="index_fixed01_title">免费申请试用</p>
+                    <p class="index_fixed01_title">获取方案</p>
+                    <p class="index_fixed01_title1">请填写您的基本信息，我们将很快安排人员联系您</p>
+                    <form onsubmit="return index_check_submit()">
+                        <p>
+                            *<input type="text" name="" placeholder="姓名" class="index_username" onfocus="set_color($(this),'#333')">
+                        </p>
+                        <p>
+                            *<input type="text" name="" placeholder="学校/机构" class="index_school" onfocus="set_color($(this),'#333')">
+                        </p>
+                        <p>
+                            *<input type="text" name="" placeholder="职位" class="index_position" onfocus="set_color($(this),'#333')">
+                        </p>
+                        <p>
+                            *<input type="text" name="" placeholder="手机" class="index_phone" onfocus="set_color($(this),'#333')">
+                        </p>
+                        <p>
+                            *<input type="text" name="" placeholder="邮箱" class="index_mail" onfocus="set_color($(this),'#333')">
+                        </p>
+                        <textarea placeholder="需求说明" class="index_need" onfocus="set_color($(this),'#333')"></textarea><br>
+                       <p>
+                           <input type="submit" name="" value="提交申请">
+                       </p>
+                    </form>
+                </div>
                 
-                </form>
+                
             </div>
         </div>
         
@@ -143,6 +171,58 @@
     }).on("mouseleave", function () {
         $(this).removeClass("index_talents_list_select").siblings().removeClass("index_talents_list_select");
     })
+
+    $(".position_close_img").on("click", function() {
+        $(".index_position_fixed").hide();
+    })
+
+
+    function index_check_submit () {
+        var username = $(".index_username").val();
+        var school = $(".index_school").val();
+        var position = $(".index_position").val();
+        var phone = $(".index_phone").val();
+        var mail = $(".index_mail").val();
+        var need = $(".index_need").val();
+        console.log(username,school,position,phone,mail,need)
+        if (isNull(username)) {
+            set_color($(".index_username"),"#ec272e");
+            $(".index_username").val("请输入姓名");
+            return false;
+        }
+
+        if (isNull(school)) {
+            set_color($(".index_school"),"#ec272e");
+            $(".index_school").val("请输入学校");
+            return false;
+        }
+
+        if (isNull(position)) {
+            set_color($(".index_position"),"#ec272e");
+            $(".index_position").val("请输入职位");
+            return false;
+        }
+
+        if (!checkTel(phone)) {
+            set_color($(".index_phone"),"#ec272e");
+            $(".index_phone").val("请输入正确的手机号");
+            return false;
+        }
+
+        if (!checkMail(mail)) {
+            set_color($(".index_mail"),"#ec272e");
+            $(".index_mail").val("请输入正确格式的邮箱");
+            return false;
+        } 
+    }
+    
+
+    function set_color (obj, color) {
+        obj.css("color",color);
+        obj.val("");
+    }
+
+    
 
 </script>
 </html>
