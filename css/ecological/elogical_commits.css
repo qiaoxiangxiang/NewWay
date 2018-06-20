@@ -76,6 +76,7 @@
 /*左侧nav*/
 .ecological_content_content_box_left{
     float: left;
+    margin-bottom: 70px;
 }
 .ecological_content_content_box_right{
     float: right;
