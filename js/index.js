@@ -12,7 +12,7 @@ $(".top").append(`
         <li class="nav_li"><a href="../case/case_index.html">技能竞赛</a></li>
         <li class="nav_li"><a href="../journalism/journalism.html">新闻动态</a></li>
         <li class="nav_li"><a href="../ecological/ecological_index.html" >合作与生态</a></li>
-        <li class="nav_li"><a href="../case/case_index.html">关于新道</a></li>
+        <li class="nav_li"><a href="../company/introduce.html">关于新道</a></li>
     </ul>
 </div>
 <!-- 一级 content -->
@@ -26,7 +26,7 @@ $(".top").append(`
     <li class="nav_content_box common_case">
         <ul class="clear">
             <li>
-                <a href="../case/case_detail.html">
+                <a href="../case/case_index.html?id=0">
                     <div>
                         <img src="../../img/index/case_slide02.png">
                     </div>
@@ -34,7 +34,7 @@ $(".top").append(`
                 </a>
             </li>
             <li>
-                <a href="../case/case_detail.html">
+                <a href="../case/case_index.html?id=1">
                     <div>
                         <img src="../../img/index/case_slide01.png">
                     </div>

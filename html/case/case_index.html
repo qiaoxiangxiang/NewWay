@@ -34,7 +34,7 @@
                     <div class="content_case clear">
                         <ul class="case_content_left">
                             <li class="case_left_list1">
-                                <p class="toggle_title toggle_title_select">专业共建</p>
+                                <p class="toggle_title">专业共建</p>
                                 <ul class="case_list2">
                                     <li class="case_left_list2 case_left_list2_select">
                                         <span></span>
@@ -231,30 +231,40 @@
 </body>
 <script src="../../js/index.js"></script>
 <script>
-    $(".case_left_list1").on("click", function() {
-        $(this).find(".case_list2").toggle();
-        $(this).find(".toggle_title").addClass("toggle_title_select").end().siblings().find(".toggle_title").removeClass("toggle_title_select");
-    })
+    var index = 0;
+    if (window.location.href.indexOf("?")>-1) {
+        index = window.location.href.split("?")[1].split("=")[1];
+    } 
+    $(".case_left_list1").eq(index).find(".toggle_title").addClass("toggle_title_select");
+    $(".case_left_list1").eq(index).find(".case_list2").show();
 
-    $(".case_left_list2").on("click", function(e) {
-        e.stopPropagation?e.stopPropagation():window.event.cancelBubble=true;
-        $(".case_content_left").find(".case_left_list2").removeClass("case_left_list2_select");
-        $(this).addClass("case_left_list2_select").siblings().removeClass("case_left_list2_select");
-    })
+    window.onload = function () {
+        $(".case_left_list1").on("click", function() {
+            $(this).find(".case_list2").toggle();
+            $(this).find(".toggle_title").addClass("toggle_title_select").end().siblings().find(".toggle_title").removeClass("toggle_title_select");
+        })
 
-    $(".case_school").on("mouseenter", function () {
-        $(this).find(".case_school_div").css({"top": -16+"px"});
-        $(this).addClass("case_school_select");
+        $(".case_left_list2").on("click", function(e) {
+            e.stopPropagation?e.stopPropagation():window.event.cancelBubble=true;
+            $(".case_content_left").find(".case_left_list2").removeClass("case_left_list2_select");
+            $(this).addClass("case_left_list2_select").siblings().removeClass("case_left_list2_select");
+        })
 
-    }).on("mouseleave", function () {
-        $(this).find(".case_school_div").css({"top": 0});
-        $(this).removeClass("case_school_select");
-    })
+        $(".case_school").on("mouseenter", function () {
+            $(this).find(".case_school_div").css({"top": -16+"px"});
+            $(this).addClass("case_school_select");
 
-    $(".case_list_univisity").on("click", function() {
-        $(this).addClass("case_list_uivisity_select").siblings().removeClass("case_list_uivisity_select");
-    })
+        }).on("mouseleave", function () {
+            $(this).find(".case_school_div").css({"top": 0});
+            $(this).removeClass("case_school_select");
+        })
 
+        $(".case_list_univisity").on("click", function() {
+            $(this).addClass("case_list_uivisity_select").siblings().removeClass("case_list_uivisity_select");
+        })
+
+    }
+    
 
 </script>
 </html>
