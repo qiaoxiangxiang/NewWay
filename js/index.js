@@ -52,7 +52,7 @@ $(".top").append(`
     <li class="nav_content_box common_news">
         <ul class="clear">
             <li>
-                <a href="../case/case_detail.html">
+                <a href="../journalism/journalism.html">
                     <p>
                         <i class="iconfont">&#xe635;</i><br>
                         新闻动态
@@ -60,7 +60,7 @@ $(".top").append(`
                 </a>
             </li>
             <li>
-               <a href="../case/case_detail.html">
+               <a href="../journalism/journalism.html">
                   <p>
                     <i class="iconfont">&#xe687;</i><br>
                    媒体报道
@@ -68,7 +68,7 @@ $(".top").append(`
                 </a>
             </li>
             <li>
-                <a href="../case/case_detail.html">
+                <a href="../journalism/journalism.html">
                     <p>
                         <i class="iconfont">&#xe602;</i><br>
                         新道live
@@ -76,7 +76,7 @@ $(".top").append(`
                 </a>
             </li>
             <li>
-               <a href="../case/case_detail.html">
+               <a href="../journalism/journalism.html">
                     <p>
                         <i class="iconfont">&#xe73b;</i><br>
                         新道专题
