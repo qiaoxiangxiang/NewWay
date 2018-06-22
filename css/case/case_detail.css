@@ -1,3 +1,17 @@
+
+.contents {
+	background: url("../../img/case/case_detail_01.png") no-repeat top center;
+	min-width: 1200px;
+	padding-top: 88px;
+	padding-bottom: 176px;
+}
+
+.case_content {
+	background: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .case_title_div {
 	position: relative;
 }
@@ -21,14 +35,15 @@
 
 
 .logo_div {
-	padding: 43px 0;
-	border-bottom: 1px solid #ececec;
+	padding: 80px 0 70px;
+	color: #fff;
+
 }
 
 .logo_img_school {
 	float: left;
-	width: 160px;
-	height: 160px;
+	width: 189px;
+	height: 167px;
 	margin-right: 32px;
 }
 
@@ -36,19 +51,36 @@
 	float: left;
 	line-height: 30px;
 	font-size: 14px;
-	color: #666;
+	width: 900px;
+	
 }
 
 .case_school_name {
 	font-size: 24px;
-	color: #333;
-	margin: 18px 0 12px;
+	margin-bottom: 16px;
 	display: inline-block;
 }
 
+.case_school_desc {
+	display: inline-block;
+	line-height: 30px;
+}
 .detail_case {
 	text-align: center;
 	padding-bottom: 50px;
+}
+
+.detail_case_other  {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.case_detail_div {
+	background-color: #f6f6f6;
+}
+.case_detail_divs {
+	border-color: #fff;
+	min-width: 1200px;
 }
 
 .school_photo {
@@ -58,20 +90,60 @@
 
 .school_project {
 	text-align: left;
-	font-size: 16px;
+	font-size: 24px;
 	color: #333;
-	padding: 30px 0;
+	padding: 30px 0 30px 19px;
+	position: relative;
 }
 
 .school_project span {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
+	display:block;
+	width: 4px;
+	height: 24px;
+	border-radius: 5px;
 	background-color: #ec282e;
-	margin-right: 13px;
+	position: absolute;
+	left: 0;
+	top: 36px;
 }
 
+.case_compare_content_list {
+	float: left;
+	width: 400px;
+	position: relative;
+
+}
+
+.case_compare_content_list img {
+	display: inline-block;
+}
+
+.case_compare_content_list p {
+	width: 252px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 24px;
+	color: #555;
+
+}
+
+.case_compare_content_list .case_time {
+	font-size: 24px;
+	color: #333;
+	margin: 20px auto 8px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.case_compare_content_list span {
+	position: absolute;
+	right:-160px;
+	top: 50px;
+	display: block;
+	width: 310px;
+	height: 3px;
+	background-color: #ededed;
+}
 .case_detail_text {
 	text-align: left;
 	font-size: 12px;
@@ -86,89 +158,179 @@
 
 
 
-/*轮播*/
-.content_center_img{
-    width: 1200px;
-    height: 619px;
-    margin-top: 44px;
-}
-
-.left_img{
-    width: 927px;
-    height: 619px;
-    float: left;
-}
-
-.left_image{
-    width: 100%;
-    height: 100%;
-}
-
-.right_img{
-    width: 211px;
-    height: 479px;
-    float: right;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    padding: 67px 0;
-}
-.fanhui,.top_banner,.bottom_banner{
-    width: 211px;
-    height: 48px;
-    line-height: 48px;
-    text-align: center;
-}
 
 
-.top_banner,.bottom_banner{
-    background: #efefef; 
+/*swiper*/
+.swiper-container {
+	height: 384px;
 }
 
-.top_banner {
+.swiper-slide {
+	width: 24.69%!important;
+	height: 384px;
+	position: relative;
+	margin-right: 8px!important;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 384px;
+}
+
+.case_swiper-button {
+	position: relative;
+	width: 1200px;
+	height: 100%;
 	position: absolute;
 	top: 0;
-	left: 0;
 }
 
-.bottom_banner {
+.swiper-slide p {
 	position: absolute;
-	bottom: 0;
+	font-size: 26px;
+	color: #fff;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	top: 179px;
 	left: 0;
+	width:100%;
 }
 
-.top_banner:hover{
-    background: #ec282e;
-    color: #fff;
-}
-.bottom_banner:hover{
-    background: #ec282e;
-    color: #fff;
-}
-
-.banner_img{
-    width: 211px;
-    height: 480px;
-    overflow: hidden;
+.swiper-button-next,.swiper-button-prev {
+	background:none;
+	width: 50px;
+	height: 50px;
+	background-color: #dddddc;
+	border-radius: 50%;
+	color: #7b7b7b;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
 }
 
-.banner_box{
-    width: 211px;
-    transition: all 1s;
+.swiper-button-select {
+	color: #fff;
+	background-color: #ec282e;
 }
 
-.banner_box_img{
-    width: 211px;
-    height: 152px;
-    margin-bottom: 12px;
+
+.mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
 }
 
-.banner_box_img:nth-last-of-type(1){
-    margin-bottom: 0;
-    width: 211px;
+
+/*合作成果*/
+.case_detail_texts {
+	border-left: 2px solid #e2e2e2;
+	padding-left: 24px;
+	position: relative;
+	padding-top: 0;
+	padding-bottom: 60px;
+}
+.case_detail_texts:last-child {
+	padding-bottom: 0;
 }
 
-.banner_box_img:nth-of-type(1){
-    border: 2px solid #ec282e;
-    width: 207px;
+.case_detail_texts span {
+	color: #ec282e;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.case_detail_texts i {
+	position: absolute;
+	left: -6px;
+	top: 11px;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: #ec282e;
+}
+
+.case_detail_texts  em {
+	position: absolute;
+	left: -2px;
+	top: 0;
+	background-color: #fff;
+	display: inline-block;
+	height: 11px;
+	width: 2px;
+}
+
+
+/*教育感言*/
+.case_teacher {
+	padding: 0 0 45px 170px;
+}
+
+.case_teacher_list {
+	float: left;
+	width: 236px;
+	margin-right: 108px;
+	background-color: #f2f2f2;
+	padding: 22px 0 30px;
+	border-radius: 5px;
+	position: relative;
+	color: #333;
+	cursor: pointer;
+}
+
+.case_teacher_list:last-child {
+	margin-right: 0;
+}
+
+
+
+.case_teacher_list img {
+	display: inline-block;
+	width: 163px;
+	height: 163px;
+	border-radius: 50%;
+}
+
+.case_teacher_list p {
+	height: 18px;
+	line-height: 18px;
+	
+	font-size: 18px;
+	margin-top: 14px;
+}
+
+
+.case_teacher_list_select,.case_teacher_list:hover {
+	background-color: #ec282e;
+	color: #fff;
+}
+
+
+.case_teacher_list_select span,.case_teacher_list:hover span {
+	position: absolute;
+	left: 99px;
+	bottom: -18px;
+	display: block;
+	width: 0;
+    height: 0;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-top: 18px solid #ec282e;
+}
+
+.case_teacher_list_p {
+	padding: 35px 30px;
+	border: 1px solid #e4e4e4;
+	color: #464855;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: left;
+}
+
+.padding_bottom0 {
+	padding-bottom: 0;
 }

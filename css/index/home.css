@@ -1,10 +1,19 @@
 #app_body{
 	opacity: 0;
+	overflow: auto;
+}
+.index_content {
+    position: relative;
+    top: -88px;
+}
+.top{
+	position: relative;
 }
 .swiper-container {
     height: 698px;
     min-width: 1200px;
     cursor: pointer;
+    width: 100%;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
@@ -171,7 +180,7 @@
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 30px #f0f0f3;
-    transition: .5s;
+    transition: .2s;
 }
 
 .index_talents_list_select .index_talents_list_div {
@@ -205,9 +214,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -195px 0 0 -250px;
-	transition: all .6s;
+    margin: -145px 0 0 -250px;
+	transition: all 1.5s;
 	z-index: 1;
+	opacity: 0;
 }
 
 .ball_box {
@@ -315,6 +325,9 @@
 	height: 590px;
 	margin: 0 auto;
 	position: relative;
+	top: 50px;
+    opacity: 0;
+    transition: all 1.5s;
 }
 .index_sever_box{
 	position: absolute;
@@ -422,12 +435,6 @@
 	margin-bottom: 32px;
 }
 
-.index_newway_lives {
-    width: 1200px;
-    margin: 0 auto;
-    height: 1000px;
-    background: skyblue;
-}
 /* 线条 */
 .sever_xian{
 	height: 2px;
@@ -652,6 +659,248 @@
 		bottom: 120px;
 		transform: rotateZ(90deg);
 	}
+.index_newway_lives{
+	width: 100%;
+	background: #f4f4f4;
+}
+.ecological_index_news_lists_img{
+	position: relative;
+}
+.newway_lives_txt{
+	position: absolute;
+	bottom: 12px;
+	left: 0;
+	width: 342px;
+	padding: 0 18px;
+	line-height: 28px;
+	font-size: 18px;
+	color: #fff;
+}
+.news_list_yugao{
+	position: absolute;
+	width: 62px;
+	height: 35px;
+	left: 0;
+	top: 14px; 
+	background: #a42321;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	border-radius:0 35px 35px  0;
+}
+.news_list_bofang{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 50%;
+	top: 50%;
+	margin: -30px 0 0 -30px;
+}
+.news_list_bofang>img{
+	width: 100%;
+	height: 100%;
+}
+.ecological_news_title {
+    height: 29px;
+	line-height: 29px;
+}
+.ecological_news_img {
+    width: 33px;
+	height: 29px;
+}
+.ecological_news_title1{
+	width: 300px;
+	float: left;
+}
+.ecological_index_content{
+	padding-bottom: 54px;
+}
+.index_newway_lives_bottom{
+	width: 1200px;
+	height: 334px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.newway_lives_nav{
+	float: right;
+}
+.newway_lives_nav_span{
+	width: 96px;
+	height: 32px;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	background:#dedeea;
+	font-size: 14px;
+	color: #333;
+	border-radius: 32px;
+}
+.newway_lives_nav_span1{
+	margin-left: 6px;
+}
+.newway_lives_nav_span:hover{
+	background: #ec282e;
+	color: #fff;
+}
+.newway_lives_bottom_tiile{
+	width: 100%;
+	height: 34px;
+}
+.newway_lives_nav_content{
+	width: 100%;
+	height: 273px;
+	padding-top: 24px;
+	display: none;
+	overflow: hidden;
+}
+.nav_content_imgtext{
+	width: 275px;
+	height: 273px;
+	overflow: hidden;
+	float: left;
+	margin-left: 32px;
+}
+.nav_content_imgtext:nth-of-type(1){
+	margin-left: 0;
+}
+.nav_content_img{
+	width: 275px;
+	height: 160px;
+	overflow:hidden;
+	position: relative;
+}
+.nav_content_img1{
+	width: 100%;
+	height: 100%;
+	transition: all .5s;
+}
+.nav_content_imgtext:hover .nav_content_img1{
+	width: 285px;
+	height: 170px;
+	margin: -5px 0 0 -5px;
+}
+.nav_bofang{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 20px;
+	bottom: 14px;
+}
+.nav_tuwen_zi{
+	position: absolute;
+	left: 20px;
+	bottom: 14px;
+}
+.nav_tuwen_zi_span1{
+	display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    background: #ec282e;
+    border-radius: 50%;
+    margin-right: 8px;
+    top: 1px;
+}
+.nav_tuwen_zi_span2{
+	font-size: 16px;
+	color: #fff;
+}
+.nav_bofang>img{
+	width: 100%;
+	height: 100%;
+}
+.nav_content_txt{
+	width: 273px;
+	height: 110px;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+}
+.nav_content_txt>p{
+	width: 235px;
+}
+.nav_content_txt_p1{
+	padding: 16px 20px 10px;
+	font-size: 18px;
+	color: #333;
+}
+.nav_content_txt_p2{
+	padding:0 20px 14px;
+	font-size: 13px;
+	color: #555;
+}
+.nav_content_txt_p3{
+	padding:0 20px;
+	font-size: 13px;
+	color: #666;
+}
+.nav_content_txt_p3>span{
+	margin-right: 6px;
+}
+/* 合作学校 */
+.xuexiao{
+	width: 100%;
+	height: 662px;
+	background: #fff;
+}
+.xuexiao_box{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.index_talents_title11{
+	margin-top: 65px;
+}
+.index_red_color1{
+	color: #ec282e;
+}
+.xuexiao_name{
+	width: 1200px;
+	height: 410px;
+}
+.index_talents_left1{
+	left: 440px
+}
+.index_talents_right1{
+	right: 440px
+}
+.xuexiao_table{
+	width: 1200px;
+	height: 360px;
+}
+.xuexiao_table .xuexiao_tr{
+	height: 180px;
+	width: 1200px;
+}
+.xuexiao_table .xuexiao_tr:nth-of-type(1) .xuexiao_td{
+	border-bottom: none;
+}
+.xuexiao_td{
+	width: 20%;
+	height: 180px;
+	border: 1px solid #cbcbcb;
+	border-right: none;
+	text-align: center;
+}
+.xuexiao_td img {
+    display: inline-block;
+}
+.xuexiao_td1{
+	border-right: 1px solid #cbcbcb;
+}
+.swiper_xuexiao{
+	height:100%;	
+}
+.swiper_xuexiao .swiper-pagination-bullet{
+	background: #d4d4d4
+}
+.swiper_xuexiao .swiper-pagination{
+	bottom: 0;
+}
+.swiper_xuexiao .swiper-pagination-bullet-active{
+	background: #ec282e;
+}
 /*右侧导航*/
 
 .position_fixed_right {

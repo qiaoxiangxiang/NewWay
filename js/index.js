@@ -5,46 +5,96 @@ $(".top").append(`
     </div>
     <!-- 一级nav -->
     <ul class="nav">
-        <a href="../index/index.html"><li class="nav_li">首页</li></a>
-        <li class="nav_li">教育服务</li>
-        <a href="../case/case_index.html"><li class="nav_li">示范案例</li></a>
-        <li class="nav_li">教育研究</li>
-        <li class="nav_li">技能竞赛</li>
-        <a href="../journalism/journalism.html"><li class="nav_li">新闻动态</li></a>
-        <a href="../ecological/ecological_index.html" ><li class="nav_li">合作与生态</li></a>
-        <li class="nav_li">关于新道</li>
+        <li class="nav_li"><a href="../index/index.html">首页</a></li>
+        <li class="nav_li"><a href="../case/case_index.html">教育服务</a></li>
+        <li class="nav_li"><a href="../case/case_index.html">示范案例</a></li>
+        <li class="nav_li"><a href="../case/case_index.html">教育研究</a></li>
+        <li class="nav_li"><a href="../case/case_index.html">技能竞赛</a></li>
+        <li class="nav_li"><a href="../journalism/journalism.html">新闻动态</a></li>
+        <li class="nav_li"><a href="../ecological/ecological_index.html" >合作与生态</a></li>
+        <li class="nav_li"><a href="../case/case_index.html">关于新道</a></li>
     </ul>
 </div>
 <!-- 一级 content -->
 <ul class="nav_box">
     <li class="nav_content_box">
-
+        首页
     </li>
     <li class="nav_content_box">
-
+    教育服务
+    </li>
+    <li class="nav_content_box common_case">
+        <ul class="clear">
+            <li>
+                <a href="../case/case_detail.html">
+                    <div>
+                        <img src="../../img/index/case_slide02.png">
+                    </div>
+                    <p>专业共建示范案例</p>
+                </a>
+            </li>
+            <li>
+                <a href="../case/case_detail.html">
+                    <div>
+                        <img src="../../img/index/case_slide01.png">
+                    </div>
+                    <p>实践教学示范案例</p>
+                </a>
+            </li>
+        </ul>
     </li>
     <li class="nav_content_box">
-
+        教育研究
     </li>
     <li class="nav_content_box">
-
+        技能竞赛
+    </li>
+    <li class="nav_content_box common_news">
+        <ul class="clear">
+            <li>
+                <a href="../case/case_detail.html">
+                    <p>
+                        <i class="iconfont">&#xe635;</i><br>
+                        新闻动态
+                    </p>
+                </a>
+            </li>
+            <li>
+               <a href="../case/case_detail.html">
+                  <p>
+                    <i class="iconfont">&#xe687;</i><br>
+                   媒体报道
+                   </p>
+                </a>
+            </li>
+            <li>
+                <a href="../case/case_detail.html">
+                    <p>
+                        <i class="iconfont">&#xe602;</i><br>
+                        新道live
+                    </p>
+                </a>
+            </li>
+            <li>
+               <a href="../case/case_detail.html">
+                    <p>
+                        <i class="iconfont">&#xe73b;</i><br>
+                        新道专题
+                    </p>
+                </a>
+            </li>
+        </ul>
     </li>
     <li class="nav_content_box">
-
+        合作与生态
     </li>
     <li class="nav_content_box">
-
-    </li>
-    <li class="nav_content_box">
-
-    </li>
-    <li class="nav_content_box">
-
+        关于新道
     </li>
 </ul>
 `)
 
-$(".journalism_right").append(`
+$(".journalism_rights").append(`
     <div class="content_right">
                 <div class="new_look">
                     <div class="new_look_h4">
@@ -187,3 +237,13 @@ $(".bottom").append(`
 //公共部分
 var height = window.innerHeight - $(".top").height() - $(".bottom").height();
 $(".content").css({"min-height":height+"px"})
+
+
+$(".nav_li").on("mouseenter",function(e) {
+    e.stopPropagation?e.stopPropagation():window.event.cancelBubble = true;
+    var index = $(this).index();
+    $(".nav_content_box").eq(index).slideDown().siblings().hide();
+})
+
+
+

@@ -1,17 +1,44 @@
 .contents {
-	background: url("../../img/case/case_02.png") no-repeat top center;
+	background: url("../../img/case/case_01.png") no-repeat top center;
 	min-width: 1200px;
-	padding-top: 88px;
+	padding-top: 412px;
 }
 
 
-
+.content_div {
+	padding-top: 0;
+}
 .content_case {
 	padding-top: 28px;
 }
 
 .case_red_color {
 	color: #ec282e;
+}
+
+.case_list_univisity_ul {
+	margin-bottom: 50px;
+}
+
+
+.case_list_univisity {
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 32px;
+	font-size: 14px;
+	
+	background-color:#efefef;
+	color: #333;
+	border-radius: 5px;
+	
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.case_list_uivisity_select {
+	color: #fff;
+	background-color: #ec282e;
 }
 
 

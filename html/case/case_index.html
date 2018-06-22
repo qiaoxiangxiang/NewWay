@@ -19,12 +19,12 @@
 
         <div class="contents">
            <div class="content_div">
-                <p class="case_title1">
+                <!-- <p class="case_title1">
                     <span class="case_title_img case_title_img1"></span>
                         以专业的能力、<span class="case_red_color">诚信负责的态度</span>
                     <span class="case_title_img case_title_img2"></span>
-                </p>
-                <p class="case_title2">为客户创造价值，并实现梦想</p>
+                </p> -->
+                <!-- <p class="case_title2">为客户创造价值，并实现梦想</p> -->
 
                 <div class="case_content">
                     <div class="case_title_div">
@@ -38,15 +38,15 @@
                                 <ul class="case_list2">
                                     <li class="case_left_list2 case_left_list2_select">
                                         <span></span>
-                                        本科
+                                        商科
                                     </li>
                                     <li class="case_left_list2">
                                         <span></span>
-                                        高职
+                                        商科
                                     </li>
                                     <li class="case_left_list2">
                                         <span></span>
-                                        中职
+                                        商科
                                     </li>
                                 </ul>
                             </li>
@@ -55,20 +55,25 @@
                                 <ul class="case_list2">
                                     <li class="case_left_list2">
                                         <span></span>
-                                        本科
+                                        商科
                                     </li>
                                     <li class="case_left_list2">
                                         <span></span>
-                                        高职
+                                        商科
                                     </li>
                                     <li class="case_left_list2">
                                         <span></span>
-                                        中职
+                                        商科
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                         <div class="case_content_right">
+                            <ul class="clear case_list_univisity_ul">
+                                <li class="case_list_univisity case_list_uivisity_select">本科</li>
+                                <li class="case_list_univisity">专职</li>
+                                <li class="case_list_univisity">中职</li>
+                            </ul>
                             <ul class="clear">
                                 <li class="case_school clear">
                                     <a href="case_detail.html">
@@ -244,6 +249,10 @@
     }).on("mouseleave", function () {
         $(this).find(".case_school_div").css({"top": 0});
         $(this).removeClass("case_school_select");
+    })
+
+    $(".case_list_univisity").on("click", function() {
+        $(this).addClass("case_list_uivisity_select").siblings().removeClass("case_list_uivisity_select");
     })
 
 
