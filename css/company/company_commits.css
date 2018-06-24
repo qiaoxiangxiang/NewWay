@@ -1,0 +1,107 @@
+.contents{
+    min-width: 1200px;
+    background: url("../../img/company/company_introduce_01.png") no-repeat top center;
+    padding-top: 196px;
+}
+
+.company_content_title {
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 89px;
+	color: #fff;
+}
+
+.company_content_title1 {
+	text-align: center;
+	font-size: 34px;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.company_content_title2 {
+	text-align: center;
+	font-size:18px;
+	height: 18px;
+	line-height: 18px;
+}
+
+.company_content_xian1 {
+	position: absolute;
+	width: 84px;
+	height: 3px;
+	display: block;
+	left: 347px;
+	top: 15.5px;
+	background-color: #fff;
+}
+
+.company_content_xian2 {
+	position: absolute;
+	width: 84px;
+	height: 3px;
+	display: block;
+	right: 347px;
+	top: 15.5px;
+}
+
+
+/*公共导航*/
+.company_con {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.company_nav_list {
+	float: left;
+	width: 192px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	background-color: rgba(255,255,255,.9);
+	font-size: 16px;
+	margin-right: 9.6px;
+}
+
+.company_nav_list:last-child {
+	margin-right: 0;
+}
+
+.company_nav_list a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+
+.company_nav_list_select {
+	background-color: #fb282f;
+}
+.company_nav_list_select a {
+	color: #fff;
+}
+
+.company_title {
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 40px;
+	border-bottom: 1px solid #ececec;
+}
+
+.company_title1 {
+	font-size: 24px;
+	height: 24px;
+	line-height: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.company_title2 {
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	color: #999;
+}
+
+

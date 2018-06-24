@@ -1,5 +1,52 @@
-.contents{
-    min-width: 1200px;
-    background: url("../../img/company/company_introduce_01.png") no-repeat top center;
-    padding-top: 196px;
+.company_introduce_con {
+	width: 1120px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0 40px;
+}
+
+.company_introduce_con1 {
+	padding: 40px 0 90px;
+}
+
+.company_introduce_left {
+	float: left;
+	width: 592px;
+	color: #333;
+}
+
+.company_introduce_right {
+	float: right;
+}
+
+.company_introduce_left h3 {
+	font-size: 32px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.company_introduce_left h4 {
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	padding: 19px 0 22px;
+	font-weight: 500;
+}
+
+.company_introduce_left p {
+	line-height: 29px;
+	font-size: 14px;
+	color: #444;
+}
+
+
+.company_introduce_con2  {
+	text-align: center;
+}
+
+
+.company_introduce_con2 h4 {
+	font-size: 30px;
+	color: #333;
+	display: inline-block;
 }
