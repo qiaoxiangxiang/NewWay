@@ -1,0 +1,65 @@
+.company_base_con {
+	padding: 114px 40px 0;
+	width: 1120px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.company_base_con1 {
+	position: relative;
+	padding-bottom:  98px;
+}
+
+.company_base_con h3 {
+	font-size: 26px;
+	color: #333;
+	height: 26px;
+	line-height: 26px;
+}
+
+.company_base_con p {
+	font-size: 14px;
+	line-height: 30px;
+	padding: 50px 0 30px;
+}
+
+.company_base_con h4 {
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.company_base_img01 {
+	position: absolute;
+	right: 0;
+	top: -66px;
+}
+
+.company_base_img02 {
+	margin-top: 114px;
+}
+
+.company_base_con2 {
+	position: relative;
+	padding-bottom: 430px;
+}
+.company_base_con2 div {
+	float: right;
+	padding-top: 43px;
+	
+}
+
+.company_base_con2_img01 {
+	float: left;
+}
+
+.company_base_con2 div p {
+	padding: 50px 0 30px;
+}
+
+.company_base_con2_img02 {
+	position: absolute;
+	right: 0;
+	top: 280px;
+
+}

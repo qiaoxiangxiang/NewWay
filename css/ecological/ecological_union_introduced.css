@@ -1,8 +1,42 @@
-.ecological_content_content_box_right{
-    font-size: 14px;
-    color: #333;
-    line-height: 35px;
+.ecological_content_content {
+    padding-bottom: 140px;
 }
-.ecological_union_introduced_p{
-    margin-top: -11px;
+
+.ecological_content_content_box li {
+    float: left;
+    width: 554px;
+    margin-bottom: 10px;
+}
+
+.ecological_content_content_box li:nth-child(2n) {
+    margin-left: 12px;
+}
+
+.ecological_content_content_box  {
+    position: relative;
+}
+
+.ecological_union_introduced_position {
+    position: absolute;
+    left: 370px;
+    top: 98px;
+    background: #fff;
+    height: 295px;
+    width: 266px;
+    border-radius: 50%;
+    padding: 87px 58px 0;
+    text-align: center;
+}
+
+.ecological_union_introduced_position h2 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.ecological_union_introduced_position p {
+    color: #666;
+    font-size: 14px;
+    line-height: 35px;
+    padding-top: 6px;
 }

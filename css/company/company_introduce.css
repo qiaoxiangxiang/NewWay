@@ -23,6 +23,7 @@
 	font-size: 32px;
 	height: 32px;
 	line-height: 32px;
+	font-weight: 700;
 }
 
 .company_introduce_left h4 {
@@ -49,4 +50,70 @@
 	font-size: 30px;
 	color: #333;
 	display: inline-block;
+}
+
+
+/*企业文化*/
+.company_introduce_con2 h4{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 500;
+	border-bottom: 3px solid #ec282e;
+	padding: 0 10px 16px 10px;
+}
+
+.company_introduce_con2 {
+	padding-bottom:  120px;
+}
+
+.company_introduce_list  {
+	padding-top: 53px;
+}
+
+.company_introduce_list li {
+	float: left;
+	width: 250px;
+	margin-right: 40px;
+	color: #fff;
+	height: 277px;
+	background-size: 100% 100%;
+}
+
+
+.company_introduce_list li:nth-child(1) {
+	background: url("../../img/company/company_introduce_03.png") no-repeat center center;
+}
+
+.company_introduce_list li:nth-child(2) {
+	background: url("../../img/company/company_introduce_05.png") no-repeat center center;
+}
+
+.company_introduce_list li:nth-child(3) {
+	background: url("../../img/company/company_introduce_07.png") no-repeat center center;
+}
+
+.company_introduce_list li:nth-child(4) {
+	background: url("../../img/company/company_introduce_09.png") no-repeat center center;
+}
+
+.company_introduce_list li:last-child {
+	margin-right: 0;
+}
+
+.company_introduce_list li img {
+	width: 100%;
+}
+
+.company_introduce_list li h5 {
+	font-size: 30px;
+	line-height: 30px;
+	height: 30px;
+	padding: 164px 0 10px;
+	font-weight: 500;
+}
+
+.company_introduce_list li h6 {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
 }

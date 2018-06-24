@@ -1,0 +1,100 @@
+.company_course_con {
+	width: 1120px;
+	padding: 47px 40px 35px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+
+.company_course_con_left {
+	float: left;
+	width: 495px;
+	padding-top: 32px;
+	margin-right: 29px;
+	padding-left: 34.5px;
+}
+
+.company_course_con_right {
+	float: left;
+	width: 495px;
+	padding-top: 128px;
+	margin-left: 29px;
+	
+}
+
+.company_course_con_right .company_course_list {
+	float: right;
+}
+
+.company_course_con_middle {
+	float: left;
+	width: 1px;
+	height: 3560px;
+	background: #f7a9ab;
+	position: relative;
+}
+
+.company_course_list {
+	padding: 27px 28px 17px 28px;
+	border:1px solid #e3e3e3;
+	width: 438px;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.company_course_list p {
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	padding-bottom: 30px;
+
+}
+
+.company_course_list p span {
+	font-size: 20px;
+	color: #ea484d;
+	font-weight: 700;
+}
+
+.company_course_list_ul li {
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 20px;
+}
+
+.company_course_list_ul li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.company_course_list_img1 {
+	position: absolute;
+	right: -39px;
+	top: 25px;
+	z-index: 10;
+}
+
+.company_course_list_img2 {
+	position: absolute;
+	left: -39px;
+	top: 25px;
+	z-index: 10;
+}
+
+.company_course_con_middle span {
+	display: block;
+	height: 10px;
+	width: 10px;
+	background: #ea484d;
+	border-radius: 50%;
+	position: absolute;
+	left: -4px;
+	top: 0;
+}
+
+.company_course_con_middle img {
+	width: 248px;
+	height: 255px;
+	position: absolute;
+	bottom: -255px;
+	left: -124px;
+}

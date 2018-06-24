@@ -1,0 +1,18 @@
+.ecological_content_content_box li {
+	width: 373px;
+	padding: 48px 0;
+	height: auto;
+}
+
+.ecological_content_content_box li p {
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+
+.ecological_content_content_box li h4 {
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	padding: 20px 0;
+}

@@ -14,14 +14,331 @@ $(".top").append(`
         <li class="nav_li"><a href="../ecological/ecological_index.html" >合作与生态</a></li>
         <li class="nav_li"><a href="../company/introduce.html">关于新道</a></li>
     </ul>
+    <!--搜索框-->
+    <div class = "sousuo iconfont">
+        &#xe603;
+    </div>
 </div>
 <!-- 一级 content -->
 <ul class="nav_box">
+    <li class="nav_content_box"></li>
     <li class="nav_content_box">
-        首页
-    </li>
-    <li class="nav_content_box">
-    教育服务
+        <div  class="nav_content_box_jiaoyu">
+            <div class="nav_content_box_jiaoyu_box">
+                
+                <ul class="box_jiaoyu_ul1">
+                    <!-- 一层头部区 -->
+                    <li class="box_jiaoyu_ul1_li">
+                        <div class="box_jiaoyu_ul1_li_img">
+                            <img src="../../img/index/fuwu_03.png" alt="">
+                        </div>
+                        <div class="box_jiaoyu_ul1_li_txt">
+                            实践教学服务
+                        </div>
+                    </li>
+                    <!-- 一层内容区 -->
+                    <li class="box_jiaoyu_ul1_li">
+                        <div class="box_jiaoyu_ul1_li_div">
+                            <ul class="box_jiaoyu_ul1_li_div_ul">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li1">虚拟仿真</li>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道ARE虚拟仿真教学平台</li>
+                                </a>
+                            </ul>
+                            <ul class="box_jiaoyu_ul1_li_div_ul">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li1">云财务</li>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    课程级实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">VBSE基础会计课程实践教学系统</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">VBSE基础会计课程实践教学系统</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">VBSE基础会计课程实践教学系统</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">VBSE基础会计课程实践教学系统</li>
+                                </a>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    业综合实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE财务实践教学平台</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE财务实践教学平台</li>
+                                </a>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    竞赛
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE财务信息化竞赛平台 </li>
+                                </a>
+
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实习
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">i实习-财务实习平台</li>
+                                </a>
+                            </ul>
+                            <ul class="box_jiaoyu_ul1_li_div_ul">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li1">云营销</li>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE营销实训平台</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE营销实训平台</li>
+                                </a>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    沙盘
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道沙盘策略销售系统</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">信任沟通沙盘</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道沙盘营销实战系统</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="box_jiaoyu_ul1_li_div">
+                            <ul class="box_jiaoyu_ul1_li_div_ul">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li1">云人力</li>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">VBSE人力资源实践教学平台</li>
+                                </a>
+                            </ul>
+                            <ul class="box_jiaoyu_ul1_li_div_ul">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li1">商科跨专业综合</li>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE综合实践教学平台</li>
+                                </a>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实验
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道EFS教学系统</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">用友新道ERP-NC实验室(NC6)</li>
+                                </a>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    沙盘
+
+
+
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道新商战沙盘系统 </li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">企业经营管理沙盘</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道新创业者沙盘系统</li>
+                                </a>
+                            </ul>
+                            <ul class="box_jiaoyu_ul1_li_div_ul">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li1">创新创业</li>
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    实训
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE创业基础实训平台</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE创新基础实训平台</li>
+                                </a>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道VBSE创新创业经营决策训练平台</li>
+                                </a>
+
+                                <li class="box_jiaoyu_ul1_li_div_ul_li2">
+                                    沙盘
+                                </li>
+                                <a href="">
+                                    <li class="box_jiaoyu_ul1_li_div_ul_li3">新道先天特质沙盘</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="box_jiaoyu_ul">
+                    <!-- 二层头部区 -->
+                    <li class="box_jiaoyu_ul1_li">
+                        <div class="box_jiaoyu_ul1_li_img">
+                            <img src="../../img/index/fuwu_05.png" alt="">
+                        </div>
+                        <div class="box_jiaoyu_ul1_li_txt">
+                            专业共建服务
+                        </div>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li">
+                        <ul class="box_jiaoyu_ul1_li_div_ul">
+                            <li class="box_jiaoyu_ul1_li_div_ul_li1 box_jiaoyu_ul2_li">云财务管理会计师培养</li>
+                            <a href="">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li3">云财务管理会计师培养</li>
+                            </a>
+                        </ul>
+                        <ul class="box_jiaoyu_ul1_li_div_ul">
+                            <li class="box_jiaoyu_ul1_li_div_ul_li1 box_jiaoyu_ul2_li">云财务会计师培养</li>
+                            <a href="">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li3">云财务会计师培养</li>
+                            </a>
+                        </ul>
+                        <ul class="box_jiaoyu_ul1_li_div_ul">
+                            <li class="box_jiaoyu_ul1_li_div_ul_li1 box_jiaoyu_ul2_li">创新创业人才培养</li>
+                            <a href="">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li3">创新创业人才培养</li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="box_jiaoyu_ul">
+                    <!-- 三层头部区 -->
+                    <li class="box_jiaoyu_ul1_li">
+                        <div class="box_jiaoyu_ul1_li_img">
+                            <img src="../../img/index/fuwu_07.png" alt="">
+                        </div>
+                        <div class="box_jiaoyu_ul1_li_txt">
+                            社会服务
+                        </div>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li">
+                        <ul class="box_jiaoyu_ul1_li_div_ul">
+                            <li class="box_jiaoyu_ul1_li_div_ul_li1 box_jiaoyu_ul2_li">协同育人创新示范中心</li>
+                            <a href="">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li3">协同育人创新示范中心</li>
+                            </a>
+                        </ul>
+                        <ul class="box_jiaoyu_ul1_li_div_ul">
+                            <li class="box_jiaoyu_ul1_li_div_ul_li1 box_jiaoyu_ul2_li">特训营</li>
+                            <a href="">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li3">管理型财会实战人才特训营</li>
+                            </a>
+                            <a href="">
+                                <li class="box_jiaoyu_ul1_li_div_ul_li3">新道教育顾问特训营</li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="box_jiaoyu_ul">
+                    <!-- 三层头部区 -->
+                    <li class="box_jiaoyu_ul1_li">
+                        <div class="box_jiaoyu_ul1_li_img">
+                            <img src="../../img/index/fuwu_10.png" alt="">
+                        </div>
+                        <div class="box_jiaoyu_ul1_li_txt">
+                            专业服务
+                        </div>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">培养方案修订服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">开班服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">教学支持服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">师资培训服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">实习服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">就业服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">产业资源服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">云平台服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">环境安装服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">技术支持服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">师资派遣服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">企业认证服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">教育大数据服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">精品制课服务</a>
+                    </li>
+                    <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                        <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">质量评价服务</a>
+                    </li>
+                </ul>
+                <ul class="box_jiaoyu_ul">
+                        <!-- 三层头部区 -->
+                        <li class="box_jiaoyu_ul1_li">
+                            <div class="box_jiaoyu_ul1_li_img">
+                                <img src="../../img/index/fuwu_13.png" alt="">
+                            </div>
+                            <div class="box_jiaoyu_ul1_li_txt">
+                                云服务
+                            </div>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">云课堂</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">案例坊</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">稻田实训</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">约创</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">智趣汇</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">云考场</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">云实习</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">云治</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">点点约课</a>
+                        </li>
+                        <li class="box_jiaoyu_ul1_li_div_ul_li4">
+                            <a class="box_jiaoyu_ul1_li_div_ul_li4_a" href="">新道人才</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
     </li>
     <li class="nav_content_box common_case">
         <ul class="clear">
@@ -44,10 +361,37 @@ $(".top").append(`
         </ul>
     </li>
     <li class="nav_content_box">
-        教育研究
+        <div class="nav_content_box_yanjiu">
+            <a href="">
+                <div class="nav_content_box_yanjiu_left">
+                    <div class="yanjiu_left_img">
+                        <img src="../../img/index/yanjiu_03.png" alt="">
+                    </div>
+                    <div  class="yanjiu_left_txt">
+                        <p class="yanjiu_left_txt_p1">教育研究院</p>
+                        <p class="yanjiu_left_txt_p2">全球教育咨询智库平台</p>
+                        <p class="yanjiu_left_txt_p3">汇聚政行企校研专家</p>
+                        <p class="yanjiu_left_txt_p4">进行教育趋势、教育政策、教育模式、教育规划等研究</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="nav_content_box_yanjiu_left">
+                    <div class="yanjiu_left_img">
+                        <img src="../../img/index/yanjiu_05.png" alt="">
+                    </div>
+                    <div  class="yanjiu_left_txt">
+                        <p class="yanjiu_left_txt_p1">教育研究院</p>
+                        <p class="yanjiu_left_txt_p2">全球教育咨询智库平台</p>
+                        <p class="yanjiu_left_txt_p3">汇聚政行企校研专家</p>
+                        <p class="yanjiu_left_txt_p4">进行教育趋势、教育政策、教育模式、教育规划等研究</p>
+                    </div>
+                </div>
+            </a>
+        </div>
     </li>
     <li class="nav_content_box">
-        技能竞赛
+        
     </li>
     <li class="nav_content_box common_news">
         <ul class="clear">
@@ -86,11 +430,60 @@ $(".top").append(`
         </ul>
     </li>
     <li class="nav_content_box">
-        合作与生态
+        
     </li>
-    <li class="nav_content_box">
-        关于新道
-    </li>
+    <li class="nav_content_box common_company">
+	<ul class="clear">
+            <li>
+                <a href="../company/introduce.html">
+                    <p>
+                        <i class="iconfont">&#xe618;</i><br>
+                        新道介绍
+                    </p>
+                </a>
+            </li>
+            <li>
+               <a href="../company/team.html">
+                  <p>
+                    <i class="iconfont">&#xe60b;</i><br>
+                   管理团队
+                   </p>
+                </a>
+            </li>
+            <li>
+                <a href="../company/course.html">
+                    <p>
+                        <i class="iconfont">&#xe613;</i><br>
+                        新道历程
+                    </p>
+                </a>
+            </li>
+            <li>
+               <a href="../company/honor.html">
+                    <p>
+                        <i class="iconfont">&#xe60a;</i><br>
+                        新道荣誉
+                    </p>
+                </a>
+            </li>
+            <li>
+               <a href="../company/base.html">
+                    <p>
+                        <i class="iconfont">&#xe601;</i><br>
+                        总部基地
+                    </p>
+                </a>
+            </li>
+            <li>
+               <a href="../company/investors.html">
+                    <p>
+                        <i class="iconfont">&#xe675;</i><br>
+                        投资者关系
+                    </p>
+                </a>
+            </li>
+        </ul>    
+	</li>
 </ul>
 `)
 
@@ -235,15 +628,40 @@ $(".bottom").append(`
             </div>
 `)
 //公共部分
+$(".nav_box").css({ "max-height": window.innerHeight - $(".top").height() + "px" })
 var height = window.innerHeight - $(".top").height() - $(".bottom").height();
-$(".content").css({"min-height":height+"px"})
+$(".content").css({ "min-height": height + "px" })
 
 
-$(".nav_li").on("mouseenter",function(e) {
-    e.stopPropagation?e.stopPropagation():window.event.cancelBubble = true;
+$(".nav_li").on("mouseenter", function (e) {
+    console.log($(this).index())
+
+    $(".top").css("background","rgba(0,0,0,.85)");
+    e.stopPropagation ? e.stopPropagation() : window.event.cancelBubble = true;
     var index = $(this).index();
-    $(".nav_content_box").eq(index).slideDown().siblings().hide();
+    $(".nav_content_box").eq(index).slideDown().siblings().slideUp();
+    $(".contents").on("mouseenter", function () {
+    
+        $(".nav_content_box").eq(index).hide();
+    })
+    $(".content").on("mouseenter", function () {
+    
+        $(".nav_content_box").eq(index).hide();
+    })
+    $(".index_content").on("mouseenter", function () {
+    
+        $(".nav_content_box").eq(index).hide();
+    })
+
 })
+
+$(".top").on("mouseleave", function() {
+    $(".top").css("background","rgba(0,0,0,.5)");
+})
+
+
+
+
 
 
 

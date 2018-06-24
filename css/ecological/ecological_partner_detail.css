@@ -1,5 +1,6 @@
 .contents {
 	background: url("../../img/ecological/ecological_search_02.png") no-repeat top center;
+	padding-top: 193px;
 }
 
 .case_title_img1 {
@@ -22,4 +23,119 @@
 
 .case_school_name {
 	margin: 0;
+}
+
+em {
+	color: #ec282e;
+	font-style: normal;
+}
+
+.case_detail_text {
+	padding-bottom: 50px;
+}
+
+.case_detail_text:last-child {
+	padding-bottom: 0;
+}
+
+.detail_case {
+	padding-bottom: 0;
+}
+
+h2 {
+	font-size: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #ec282e;
+	padding: 40px 0 70px;
+}
+
+/*swiper*/
+.swiper-containers {
+	height: 384px;
+	position: relative;
+}
+
+.swiper-slides {
+	width: 24.69%!important;
+	height: 384px;
+	position: relative;
+	margin-right: 8px!important;
+}
+
+.swiper-slides img {
+	width: 100%;
+	height: 384px;
+}
+
+.case_swiper-button {
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.swiper-slides p {
+	position: absolute;
+	font-size: 26px;
+	color: #fff;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	top: 179px;
+	left: 0;
+	width:100%;
+}
+
+.swiper-button-next,.swiper-button-prev {
+	background:none;
+	width: 50px;
+	height: 50px;
+	background-color: #dddddc;
+	border-radius: 50%;
+	color: #7b7b7b;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.swiper-button-select {
+	color: #fff;
+	background-color: #ec282e;
+}
+
+
+.mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.swiper_xuexiao {
+	height: 240px;
+	padding-bottom: 70px;
+}
+
+.swiper_xuexiao .swiper-pagination-bullet {
+	width: 20px;
+	height: 4px;
+	background: #d2d2d2;
+}
+
+.swiper_xuexiao .swiper-pagination-bullet-active {
+	width: 30px;
+	background: #ec282e;
+
+}
+
+.swiper_xuexiao .swiper-pagination {
+	bottom: 60px;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+	opacity: 1;
 }

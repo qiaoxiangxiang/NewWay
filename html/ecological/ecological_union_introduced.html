@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>合作与生态</title>
+    <title>联盟介绍</title>
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/iconfont.css">
     <script src="../../js/jquery-2.1.4.js"></script>
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../../css/ecological/ecological_union_introduced.css">
 </head>
 <body>
-<!--联盟介绍-->
+<!--资质要求-->
 <div id="app_body">
     <div class="top"></div>
     <!-- 主体 -->
@@ -28,7 +28,7 @@
                     </span>
                     <span class="ecological_content_xian"></span>
                 </p>
-                <p class="ecological_content_title_top ecological_content_english">
+                <p class="ecological_content_title_top">
                     SYNERGETIC AND COOPERATIVE EDUCATING PEOPLE
                 </p>
             </div>
@@ -38,40 +38,27 @@
                     <p class="ecological_content_content_title_name1">PARTNERS</p>
                 </div>
                 <div class="ecological_content_content_box">
-                    <div class="ecological_content_content_box_left">
-                        <ul>
-                           <a href="ecological_union_introduced.html"><li class="ecological_nav_li ecological_nav_li1">联盟介绍</li></a>
-                            <a href="ecological_aptitude.html"><li class="ecological_nav_li">资质要求</li></a>
-                            <a href="ecological_aptitude.html#aptitude"><li class="ecological_nav_li">招募对象</li></a>
-                            <a href="ecological_partnership.html"><li class="ecological_nav_li">评选标准</li></a>
-                            <a href="ecological_client.html"><li class="ecological_nav_li">新道顾问认证</li></a>
-                            <a href="ecological_partner_news.html"><li class="ecological_nav_li">伙伴新闻</li></a>
-                            <a href="ecological_entourage.html"><li class="ecological_nav_li">明星伙伴</li></a>
-                            <a href="ecological_search.html"><li class="ecological_nav_li">授权伙伴查询</li></a>
-                        </ul>
-                    </div>
-                    <div class="ecological_content_content_box_right">
-                        <p class="ecological_union_introduced_p">
-                            巨大的市场环境和客户需求的不断演变，单靠一家公司的投入远远不够支撑一个产业，作为教育企业同样也脱离不了大时代。产业兴旺，厂商有责，在这样的背景下，“长期合作•发展共赢”应势而生。
-                        </p>
-                        <br>
-                        <p>
-                            新道坚持开放、合作、分享，把“长期合作•发展共赢”作为新道一项长期的业务新策略，寓意着新道将回归产品、走向平台化、打造大的产业链，这是过去新道公司成功的宝贵基础，在未来，新道将坚实基础，发展更大的产业链，实现经营模式的转型升级。
-                        </p>
-                        <br>
-                        <p>
-                            通过伙伴联盟的建设，新道将引入大量的教育领域企业，与新道共同服务于全国经管实践教学，更好的为院校提供专业的经管实践教学解决方案，共同推进产教融合，服务教育发展。
-                        </p>
-                        <br>
-                        <p>
-                            新道坚持“发展一家，成就一家”的伙伴扶持策略，在发展伙伴的同时，提升伙伴的院校服务能力，通过伙伴服务人员的能力提升，保证伙伴人员也能为院校提供专业的经管实践教学解决方案，并通过专业的服务，深入与院校进行沟通交流，提高经管实践教学的普及度，解决院校困难。
-                        </p>
-                        <br>
-                        <p>
-                        截止目前，已有数百家教育领域企业加入了我们的伙伴行列，遍布全国大部分地区。伙伴联盟将携手共同服务好当地院校，为教育事业做出应有的贡献。
-                        </p>
-                        <br>
-                    </div>
+                   <ul class="clear">
+                       <li>
+                           <img src="../../img/ecological/ecological_introduced_03.png">
+                       </li>
+                       <li>
+                           <img src="../../img/ecological/ecological_introduced_05.png">
+                       </li>
+                       <li>
+                           <img src="../../img/ecological/ecological_introduced_09.png">
+                       </li>
+                       <li>
+                           <img src="../../img/ecological/ecological_introduced_10.png">
+                       </li>
+                   </ul>
+                   <div class="ecological_union_introduced_position">
+                       <h2>分销伙伴是新道</h2>
+                       <p>
+                           
+                        为加强空白客户的覆盖及客户深度经营，快速推广新道产品而发展的产品营销伙伴，该伙伴通过指名固定客户经营范围进行产品销售和相应服务，公司给予该伙伴固定产品折扣，伙伴承诺一定的业绩指标，公司对伙伴定期进行评级和管理。
+                       </p>
+                   </div>
                 </div>
             </div>
         </div>
@@ -81,6 +68,14 @@
 </body>
 <script src="../../js/index.js"></script>
 <script>
-
+    $(".ecological_nav_li").eq(2).click(function(){
+        window.location.href="ecological_aptitude.html#aptitude";
+        $(".ecological_nav_li").eq(1).removeClass("ecological_nav_li1")
+        $(".ecological_nav_li").eq(2).addClass("ecological_nav_li1")
+    })
+    if(window.location.href.indexOf("#") != -1){
+        $(".ecological_nav_li").eq(1).removeClass("ecological_nav_li1")
+        $(".ecological_nav_li").eq(2).addClass("ecological_nav_li1")
+    }
 </script>
 </html>

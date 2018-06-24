@@ -7,6 +7,7 @@
 
 .content_div {
 	padding-top: 0;
+
 }
 .content_case {
 	padding-top: 28px;
@@ -17,7 +18,7 @@
 }
 
 .case_list_univisity_ul {
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 
@@ -49,6 +50,7 @@
 	color: #333;
 	padding-left: 12px;
 	cursor: pointer;
+	background: #e8e8e8;
 }
 
 .toggle_title_select {
@@ -58,11 +60,12 @@
 
 .case_list2 {
 	display: none;
+	margin-bottom: 20px;
 }
 
 .case_left_list2 {
-	height: 47px;
-	line-height: 47px;
+	height: 35px;
+	line-height: 35px;
 	color: #333;
 	cursor: pointer;
 	margin-top: 18px;
@@ -79,7 +82,7 @@
 	display: inline-block;
 	position: absolute;
 	left: 0;
-	top: 13px;
+	top: 7px;
 	width: 3px;
 	height: 21px;
 	background-color: #ec282e;

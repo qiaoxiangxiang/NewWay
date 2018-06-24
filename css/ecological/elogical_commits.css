@@ -36,11 +36,13 @@
     font-size: 34px;
     color: #333;
     margin-left: 22px;
+    font-weight: 700;
 }
 .ecological_content_title_name2{
     font-size: 34px;
     color: #ec282e;
     margin: 0 22px 0 32px;
+    font-weight: 700;
 }
 .ecological_content_content{
     width: 1120px;

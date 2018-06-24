@@ -1,0 +1,201 @@
+.company_invitors_con {
+	padding: 40px 40px 110px 40px;
+	margin: 0 auto;
+	width: 1120px;
+	background: #fff;
+}
+
+.company_invitors_banner {
+	width: 1120px;
+	background: url("../../img/company/company_investor_03.png") no-repeat center center;
+	height: 263px;
+	background-size: 100% 100%;
+	margin: 0 auto 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.company_invitors_banner h2 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	padding: 90px 0 25px;	
+}
+
+.company_invitors_banner h2 span {
+	margin-right: 67px;
+}
+
+.company_invitors_banner p {
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*公告*/
+.company_invitors_guanxis {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.company_invitors_announcement_list {
+	padding: 30px 0;
+	border-bottom: 1px solid #e8e8e8;
+	cursor: pointer;
+	position: relative;
+}
+
+.company_invitors_announcement_list img {
+	position: absolute;
+	width: 28px;
+	height: 37px;
+	right: 0;
+	top: 58px;
+}
+
+.company_invitors_announcement_list:hover .company_invitors_month{
+	background: #ec272e;
+	color: #fff;
+}
+
+.company_invitors_announcement_list:hover .company_invitors_news p {
+	color: #ec272e;
+}
+
+.company_invitors_month {
+	float: left;
+	margin-right: 19px;
+	padding: 12px 20px;
+	background: #e7e7e7;
+	color: #333;
+	font-size: 26px;
+	line-height: 24px;
+}
+
+.company_invitors_month span {
+	font-size: 14px;
+}
+
+.company_invitors_news {
+	float:left;
+	font-size: 16px;
+}
+
+.company_invitors_news h6 {
+	color: #666;
+	height: 16px;
+	line-height: 16px;
+	padding: 12px 0 17px;
+}
+
+.company_invitors_news p {
+	width: 900px;
+	white-space: nowrap;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.company_invitors_paging_ul {
+	padding: 40px 0 85px;
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.company_invitors_paging_ul li {
+	float: left;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	line-height: 36px;
+	text-align: center;
+	border:1px solid #b5b5b5;
+	margin-right: 12px;
+	color: #666;
+}
+
+.company_invitors_paging_ul li a {
+	color: #666;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.company_invitors_paging_ul li:nth-child(10) {
+	margin-right: 0;
+}
+
+.company_invitors_paging_ul li:hover {
+	background: #ed3035;
+	border-color: #ed3035;
+	
+}
+
+.company_invitors_paging_ul li:hover a {
+	color: #fff;
+}
+
+.company_invitors_paging_ul .iconfont:hover {
+	border-color: #ed3035;
+	background: none;
+}
+.company_invitors_paging_ul .iconfont:hover a{
+	color: #ed3035;
+}
+
+
+
+.company_invitors_paging_ul .company_invitors_paging {
+	background: #ed3035;
+	border-color: #ed3035;
+	
+}
+.company_invitors_paging_ul .company_invitors_paging a {
+	color: #fff;
+}
+
+.company_invitors_paging_ul .company_invitors_topaging {
+	border-color: #ed3035;
+}
+
+.company_invitors_paging_ul .company_invitors_topaging a {
+	color: #ed3035;
+}
+
+
+
+
+/*关系*/
+.company_invitors_guanxi_title {
+	font-size: 24px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 24px;
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.company_invitors_guanxi_title span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 24px;
+	width: 4px;
+	background: #ec272e;
+	border-radius: 5px;
+}
+
+.company_invitors_guanxi_phone {
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	color: #666;
+}
+
+.company_invitors_guanxi_phone span {
+	color: #ec272e;
+}

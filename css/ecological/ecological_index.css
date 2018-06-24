@@ -58,7 +58,7 @@
 	transition: .5s;
 }
 .ecological_index_news_list>div:hover{
-	box-shadow: 0 0 10px #dfdfdf;
+	box-shadow: 0 0 20px #dfdfdf;
 }
 
 .ecological_index_news_list:nth-child(2) {
@@ -156,8 +156,8 @@
 
 .ecological_index_compare_list {
 	float: left;
-	width: 282px;
-	margin-right: 24px;
+	width: 365px;
+	margin-right: 52px;
 	position: relative;
 	height: 370px;
 }
@@ -197,7 +197,7 @@
 	color: #888;
 	font-size: 14px;
 	line-height: 26px;
-	width: 205px;
+	width: 280px;
 	margin: 17px auto 20px;
 	overflow : hidden;
 	text-overflow: ellipsis;
@@ -317,6 +317,7 @@
 	width: 482px;
 	margin-bottom: 30px;
 	border: 1px solid #f8f8f8;
+	cursor: pointer;
 }
 
 .ecological_index_star_list:hover {
@@ -363,4 +364,10 @@
 .ecological_index_star_list_right02  span {
 	float: right;
 	width: 193px;
+}
+
+.ecological_a {
+	display: block;
+	width: 100%;
+	height: 100%;
 }

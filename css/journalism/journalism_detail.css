@@ -1,6 +1,6 @@
 .content_left{
-    width: 854px;
-    padding-right: 65px;
+    width: 862px;
+    padding-right: 57px;
 }
 .journalism_detail_content{
     font-size: 14px;
@@ -150,4 +150,7 @@
 }
 #bsPanel{
     display: none !important;
+}
+.journalism_detail_bottom_left_laiyuan{
+    color: #ec282e;
 }

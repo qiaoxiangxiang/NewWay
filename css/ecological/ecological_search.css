@@ -63,6 +63,9 @@
 	outline: 0;
 	cursor: pointer;
 	margin-top: 50px;
+	font-size: 18px;
+    padding-left: 0;
+    border: 0;
 }
 
 .ecological_search_div table, .ecological_search_div table thead{
