@@ -8,7 +8,7 @@ $(".top").append(`
         <li class="nav_li"><a href="../index/index.html">首页</a></li>
         <li class="nav_li"><a href="javascript:;">教育服务</a></li>
         <li class="nav_li"><a href="../case/case_index.html">示范案例</a></li>
-        <li class="nav_li"><a href="../case/case_index.html">教育研究</a></li>
+        <li class="nav_li"><a href="javascript:;">教育研究</a></li>
         <li class="nav_li"><a href="javascript:;">技能竞赛</a></li>
         <li class="nav_li"><a href="../journalism/journalism.html">新闻动态</a></li>
         <li class="nav_li"><a href="../ecological/ecological_index.html" >合作与生态</a></li>
@@ -390,9 +390,58 @@ $(".top").append(`
             </a>
         </div>
     </li>
-    <li class="nav_content_box">
-        
-    </li>
+    <li class="nav_content_box common_company1">
+        <ul class="clear">
+            <li>
+                <a href="">
+                    <p>
+                        <i class="iconfont">&#xe634;</i><br>
+                        “新道杯”沙盘大赛本科
+                    </p>
+                </a>
+            </li>
+            <li>
+            <a href="">
+                <p>
+                    <i class="iconfont">&#xe65c;</i><br>
+                    “新道杯”沙盘大赛高职
+                </p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <p>
+                        <i class="iconfont">&#xe68c;</i><br>
+                        中职沙盘国赛
+                    </p>
+                </a>
+            </li>
+            <li>
+            <a href="">
+                    <p>
+                        <i class="iconfont">&#xe6f2;</i><br>
+                        高职会计国赛
+                    </p>
+                </a>
+            </li>
+            <li>
+            <a href="">
+                    <p>
+                        <i class="iconfont">&#xe605;</i><br>
+                        管理会计大赛
+                    </p>
+                </a>
+            </li>
+            <li>
+            <a href="">
+                    <p>
+                        <i class="iconfont">&#xe615;</i><br>
+                        会计信息化大赛
+                    </p>
+                </a>
+            </li>
+        </ul>
+	    </li>
     <li class="nav_content_box common_news">
         <ul class="clear">
             <li>
@@ -627,8 +676,129 @@ $(".bottom").append(`
                 <p>Copyright © 2018 新道科技股份有限公司 琼ICP备11002248号-3</p>
             </div>
 `)
+$(".page_fixed").append(`
+<div class="position_fixed_right">
+<ul>
+    <li class="position_fixed_right_list position_fixed_right_list1" onclick="NTKF.im_openInPageChat('')">
+        <div class="fixed_right_list_left fixed_right_list_left1">
+            <p class="fixed_right_iconfont iconfont">&#xe6a7;</p>
+            <p class="fixed_right_iconfont_p">咨询</p>
+        </div>
+        <div class="fixed_right_list_left1_txt">
+                在线咨询
+            </div>
+    </li>
+    <li class="position_fixed_right_list position_fixed_right_list1 index_free_button">
+        <div class="fixed_right_list_left fixed_right_list_left1">
+            <p class="fixed_right_iconfont iconfont">&#xe632;</p>
+            <p class="fixed_right_iconfont_p">申请试用</p>
+        </div>
+        <div class="fixed_right_list_left1_txt">
+                免费申请试用
+            </div>
+    </li>
+    <li class="position_fixed_right_list position_fixed_right_list1 index_free_button">
+            <div class="fixed_right_list_left fixed_right_list_left1">
+                <p class="fixed_right_iconfont iconfont">&#xe608;</p>
+                <p class="fixed_right_iconfont_p">申请方案</p>
+            </div>
+            <div class="fixed_right_list_left1_txt">
+                    申请方案
+                </div>
+        </li>
+    <li class="position_fixed_right_list position_fixed_right_list1">
+            <div class="fixed_right_list_left fixed_right_list_left1">
+                    <p class="fixed_right_iconfont iconfont">&#xe621;</p>
+                    <p class="fixed_right_iconfont_p">公众号</p>
+                </div>
+                <div class="fixed_right_list_left1_txt">
+                        公众号
+                </div>
+    </li>
+    <li class="position_fixed_right_list position_fixed_right_list1">
+        <div class="fixed_right_list_left fixed_right_list_left1">
+            <p class="fixed_right_iconfont iconfont">&#xe66f;</p>
+            <p class="fixed_right_iconfont_p">客服热线</p>
+        </div>
+        <div class="fixed_right_list_left1_txt">
+                123456489
+            </div>
+    </li>
+    <!-- 置顶 -->
+    <li class="position_fixed_right_list index_totop_button">
+        <div class="fixed_right_list_left">
+            <p class="fixed_right_iconfont iconfont">&#xe623;</p>
+            <p class="fixed_right_iconfont_p">TOP</p>
+        </div>
+    </li>
+</ul>
+</div>
+<!-- 弹窗 -->
+<div class="index_position_fixed">
+<!-- MAT弹窗 -->
+
+    <div class="index_fixed01">
+        <div class="position_close_img">
+            <img src="../../img/home/index_close.png">
+        </div>
+        <div class="index_position_fixed_div">
+            <div>
+                <p class="index_fixed01_title">申请方案</p>
+                <p class="index_fixed01_title">免费申请试用</p>
+                <!-- <p class="index_fixed01_title">初级管理会计认证考试报名</p>
+                 <p class="index_fixed01_title">特训营预报名</p> -->                
+            </div>
+
+            <p class="index_fixed01_title1">请填写您的基本信息，我们将很快安排人员联系您</p>
+            <form onsubmit="return index_check_submit()">
+                <p>
+                    *
+                    <input type="text" name="" placeholder="姓名" class="index_username" onfocus="set_color($(this),'#333')">
+                </p>
+                <p class="xingbie">
+                    *
+                    <span>性别</span>
+                    <span class="xingbei_xuanze xingbie_nan"></span>男
+                    <span class="xingbei_xuanze xingbie_nv"></span>女
+                </p>
+                <p class="shenfen">
+                    *
+                    <input type="text" name="" placeholder="身份证号" class="index_shenfen" onfocus="set_color($(this),'#333')">
+                </p>
+                <p>
+                    *
+                    <input type="text" name="" placeholder="学校/机构" class="index_school" onfocus="set_color($(this),'#333')">
+                </p>
+                <p>
+                    *
+                    <input type="text" name="" placeholder="职位" class="index_position" onfocus="set_color($(this),'#333')">
+                </p>
+                <p>
+                    *
+                    <input type="text" name="" placeholder="手机" class="index_phone" onfocus="set_color($(this),'#333')">
+                </p>
+                <p>
+                    *
+                    <input type="text" name="" placeholder="邮箱" class="index_mail" onfocus="set_color($(this),'#333')">
+                </p>
+                <textarea placeholder="需求说明" class="index_need" onfocus="set_color($(this),'#333')"></textarea>
+                <p class="dizhi1">
+                    *
+                    <input type="text" name="" placeholder="地址" class="index_dizhi1" onfocus="set_color($(this),'#333')">
+                </p>
+                <p class="dizhi2">
+                    <input type="text" name="" class="index_dizhi2" onfocus="set_color($(this),'#333')">
+                </p>
+                <br>
+                <p>
+                    <input type="submit" name="" value="提交申请">
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+`)
 //公共部分
-$(".nav_box").css({ "max-height": window.innerHeight - $(".top").height() + "px" })
 var height = window.innerHeight - $(".top").height() - $(".bottom").height();
 $(".content").css({ "min-height": height + "px" })
 
@@ -658,10 +828,101 @@ $(".nav_li").on("mouseenter", function (e) {
 $(".top").on("mouseleave", function() {
     $(".top").css("background","rgba(0,0,0,.5)");
 })
+// right fixed
+//右侧导航点击
+$(".index_totop_button").on("click", function () {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 500);
+})
+
+//$(".index_question_button").on("click", function () {
+    //alert("去咨询");
+//})
+
+$(".index_free_button").on("click", function () {
+ $(".index_position_fixed").show();
+    $(".index_fixed01_title1").show();
+    $(".shenfen").css({"display":"none"});            
+    $(".xingbie").css({"display":"none"});
+    $(".index_need").css({"display":"block"})
+    $(".dizhi1").css({"display":"none"});
+    $(".dizhi2").css({"display":"none"});
+    $(".index_fixed01").css({"height":"720px"})
+    $("form").css("padding-top", 0);
+    $(".index_fixed01_title").eq(parseInt($(this).index(), 10) - 2).show().siblings().hide();
+    if ($(this).index() == 3) {
+        $(".index_fixed01_title1").hide();
+        $("form").css("padding-top", 26 + "px");
+        $(".xingbie").css({"display":"block"});
+        $(".shenfen").css({"display":"block"});
+        $(".index_need").css({"display":"none"})
+        $(".dizhi1").css({"display":"block"});
+        $(".dizhi2").css({"display":"block"});
+        $(".index_fixed01").css({"height":"900px"})
+        return;
+    }
+    if($(this).index() == 4){
+        $(".index_fixed01_title1").hide();
+        $("form").css("padding-top", 26 + "px");
+        $(".xingbie").css({"display":"block"});
+        $(".index_need").css({"display":"none"})
+        $(".dizhi1").css({"display":"block"});
+        $(".dizhi2").css({"display":"block"});
+        $(".index_fixed01").css({"height":"720px"})
+        return;
+    }
+})
 
 
 
+//验证信息
+function index_check_submit() {
+    var username = $(".index_username").val();
+    var school = $(".index_school").val();
+    var position = $(".index_position").val();
+    var phone = $(".index_phone").val();
+    var mail = $(".index_mail").val();
+    var need = $(".index_need").val();
+    var shenfenz = $(".index_shenfen");
+    console.log(username, school, position, phone, mail, need)
+    if (isNull(username)) {
+        set_color($(".index_username"), "#ec272e");
+        $(".index_username").val("请输入姓名");
+        return false;
+    }
 
+    if (isNull(school)) {
+        set_color($(".index_school"), "#ec272e");
+        $(".index_school").val("请输入学校");
+        return false;
+    }
 
+    if (isNull(position)) {
+        set_color($(".index_position"), "#ec272e");
+        $(".index_position").val("请输入职位");
+        return false;
+    }
 
+    if (!checkTel(phone)) {
+        set_color($(".index_phone"), "#ec272e");
+        $(".index_phone").val("请输入正确的手机号");
+        return false;
+    }
 
+    if (!checkMail(mail)) {
+        set_color($(".index_mail"), "#ec272e");
+        $(".index_mail").val("请输入正确格式的邮箱");
+        return false;
+    }
+    if (!checkShenfen(shenfenz)) {
+        set_color($(".index_mail"), "#ec272e");
+        $(".index_mail").val("请输入正确的身份证号码");
+        return false;
+    }
+
+}
+function set_color(obj, color) {
+    obj.css("color", color);
+    obj.val("");
+}

@@ -361,22 +361,31 @@ img{
 
 /*关于新道下拉*/ 
 
-.common_company {
+.common_company,.common_company1 {
     padding: 30px 0;
 }
 
-.common_company li {
+.common_company li,.common_company1 li {
     float: left;
     width: 200px;
 }
-
+.common_company1 li p{
+    color: #fff;
+    width: 180px;
+    text-align: center;
+    margin-left: 20px;
+}
+.common_company1 li:nth-of-type(1) p{
+    margin-left: 0px;
+    margin-right: 20px;
+}
 .common_company li p {
     color: #fff;
     width: 95px;
     text-align: center;
 }
 
-.common_company li p i {
+.common_company li p i,.common_company1 li p i {
     font-size: 34px;
     margin-bottom: 15px;
     display: inline-block;
@@ -385,7 +394,9 @@ img{
 .common_company li:hover p{
     color: #ec282e;
 } 
-
+.common_company1 li:hover p{
+    color: #ec282e;
+} 
 
 /* 教育研究下拉 */
 .nav_content_box_yanjiu{
@@ -540,6 +551,197 @@ img{
 .box_jiaoyu_ul1_li_div_ul_li4_a:hover{
     color: #ec282e
 }
+/*右侧导航*/
 
+.position_fixed_right {
+    position: fixed;
+    right: -140px;
+    bottom: 100px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 10;
+}
+.position_fixed_right_list{
+    width: 204px;
+    height: 65px;
+    background-color: #ec282e;
+    text-align: center;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	position: relative;
+	left: 0;
+	color: #fff;
+	transition: all .5s;
+}
+.fixed_right_list_left{
+	width: 55px;
+	height: 46px;
+	position: relative;
+	left: 9px;
+	top: 10px;
+	
+}
+.fixed_right_iconfont{
+	font-size: 30px;
+}
+.fixed_right_iconfont_p{
+	font-size: 12px;
+}
+.index_totop_button{
+	width: 65px;
+}
+.position_fixed_right_list1{
+	overflow: hidden;
+}
+.fixed_right_list_left1_txt{
+	float: left;
+    width: 117px;
+    height: 100%;
+    line-height: 65px;
+    margin-left: 20px;
+    text-align: left;
+}
+.fixed_right_list_left1{
+	border-right: 1px solid #fff;
+	float: left;
+}
+.position_fixed_right_list1:hover{
+	left:-135px;
+}
+/*弹窗*/
 
+.index_position_fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 5;
+    display: none;
+}
 
+.index_fixed01 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 590px;
+    height: 720px;
+    margin-left: -332px;
+    margin-top: -370px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.index_position_fixed_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.index_fixed01_title {
+    height: 75px;
+    line-height: 83px;
+    color: #333;
+    text-align: center;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #f2f2f2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 24px;
+    display: none;
+}
+
+.index_fixed01_title1 {
+    color: #ec272e;
+    font-size: 14px;
+    padding-left: 83px;
+    height: 14px;
+    line-height: 14px;
+    margin: 17px 0 21px;
+}
+
+.index_fixed01 form {
+    padding-left: 80px;
+}
+
+.index_fixed01 form p {
+    height: 50px;
+    width: 400px;
+    line-height: 53px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    color: #ec272e;
+    font-size: 14px;
+    padding-left: 22px;
+    overflow: hidden;
+}
+.xingbie{
+	background-color: #fff !important;
+	display: none;
+}
+.xingbei_xuanze{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid rgba(153,153,153, .6);
+	border-radius: 50%;
+	margin: 0 10px 0 20px;
+}
+.index_fixed01 form p:last-of-type {
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.index_fixed01 form p input {
+    height: 53px;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+    line-height: 53px;
+    background-color: #f2f2f2;
+    width: 375px;
+    outline: 0;
+}
+.index_fixed01 form textarea {
+    height: 132px;
+    width: 400px;
+    background-color: #f2f2f2;
+    border: 0;
+    padding: 20px 0 0 23px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.index_fixed01 form p input[type="submit"] {
+    height: 53px;
+    line-height: 53px;
+    width: 176px;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+    background-color: #ec272e;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.position_close_img {
+    width: 60px;
+    height: 42px;
+    background-color: #ec272e;
+    position: absolute;
+    right: -45px;
+    top: 0;
+    z-index: 1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.position_close_img img {
+    margin: 12px 10px 0 26px;
+}

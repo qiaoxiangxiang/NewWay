@@ -121,3 +121,24 @@
     position: relative;
     top: -1px;
 }
+
+.ecological_content_content_title {
+    position: relative;
+}
+
+.back_list {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 15px;
+    background-color: #ec282e;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 9.5px;
+}
+
+.back_list img {
+    display: inline-block;
+    margin-right: 7px;
+}
