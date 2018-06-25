@@ -968,7 +968,26 @@
 <script src="../../js/index.js"></script>
 <script src="../../js/swiper.min.js"></script>
 <script>
+    function scroll () {
+        if (($(".index_newway").offset().top - $(this).scrollTop()) < $(".index_newway").height() ) {
+            $(".ball").css({ "marginTop": "-195px", "opacity": "1" })
+            $(".index_sever").css({ "top": "0px", "opacity": "1" })
+        };
+        if (($(".ecological_index_content1").offset().top - $(this).scrollTop()) < $(".ecological_index_content1").height()+300) {
+            $(".ecological_index_content1").css({ "top": "0px", "opacity": "1" })
+        };
+        if (($(".index_newway_lives_bottom1").offset().top - $(this).scrollTop()) < $(".index_newway_lives_bottom1").height()+400) {
+            $(".index_newway_lives_bottom1").css({ "top": "0px", "opacity": "1" })
+        };
+        if (($(".xuexiao_box_top").offset().top - $(this).scrollTop()) < $(".xuexiao_box_top").height()+800) {
+            $(".xuexiao_box_top").css({ "top": "0px", "opacity": "1" })
+            $(".xuexiao_name").css({ "top": "0px", "opacity": "1" })
+        };
+    }
+
+    
     window.onload = function () {
+        scroll();
         var mySwiper = new Swiper('.swiper_container', {
             loop: true,
              autoplay: {
@@ -1279,49 +1298,16 @@
     };*/
 
     $(window).scroll(function(){
-        if (($(".index_newway").offset().top - $(this).scrollTop()) < $(".index_newway").height() ) {
-            $(".ball").css({ "marginTop": "-195px", "opacity": "1" })
-            $(".index_sever").css({ "top": "0px", "opacity": "1" })
-        };
-        if (($(".ecological_index_content1").offset().top - $(this).scrollTop()) < $(".ecological_index_content1").height()+300) {
-            $(".ecological_index_content1").css({ "top": "0px", "opacity": "1" })
-        };
-        if (($(".index_newway_lives_bottom1").offset().top - $(this).scrollTop()) < $(".index_newway_lives_bottom1").height()+400) {
-            $(".index_newway_lives_bottom1").css({ "top": "0px", "opacity": "1" })
-        };
-        if (($(".xuexiao_box_top").offset().top - $(this).scrollTop()) < $(".xuexiao_box_top").height()+800) {
-            $(".xuexiao_box_top").css({ "top": "0px", "opacity": "1" })
-            $(".xuexiao_name").css({ "top": "0px", "opacity": "1" })
-        };
-          
+        scroll();
     });
+
+    
 
 
 
 // 头部
 
 $(".top").css("background","rgba(0,0,0,0)");
-$(".nav_li").on("mouseenter", function (e) {
-    console.log($(this).index())
-
-    $(".top").css("background","rgba(0,0,0,.85)");
-    e.stopPropagation ? e.stopPropagation() : window.event.cancelBubble = true;
-    var index = $(this).index();
-    $(".nav_content_box").eq(index).siblings().slideUp().stop(true,true).end().slideDown();
-    $(".contents").on("mouseenter", function () {
-    
-        $(".nav_content_box").eq(index).hide();
-    })
-    $(".content").on("mouseenter", function () {
-    
-        $(".nav_content_box").eq(index).hide();
-    })
-    $(".index_content").on("mouseenter", function () {
-    
-        $(".nav_content_box").eq(index).hide();
-    })
-
-})
 
 $(".top").on("mouseleave", function() {
     $(".top").css("background","rgba(0,0,0,0)");
