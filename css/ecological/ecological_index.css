@@ -69,7 +69,7 @@
 	transition: .5s;
 }
 
-.ecological_index_news_list:hover .ecological_index_news_lists_img>img{
+.ecological_index_news_list:hover .ecological_index_news_lists_img img{
 	transform: scale(1.1);
 
 }

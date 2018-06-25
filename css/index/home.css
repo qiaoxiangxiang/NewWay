@@ -726,11 +726,23 @@
 .ecological_index_content{
 	padding-bottom: 54px;
 }
+.ecological_index_content1{
+	position: relative;
+    top: 50px;
+    opacity: 0;
+    transition: all 2s;
+}
 .index_newway_lives_bottom{
 	width: 1200px;
 	height: 334px;
 	margin: 0 auto;
 	padding-bottom: 40px;
+}
+.index_newway_lives_bottom1{
+	position: relative;
+	top: 50px;
+	opacity: 0;
+    transition: all 2s;
 }
 .newway_lives_nav{
 	float: right;
@@ -861,6 +873,12 @@
 	margin: 0 auto;
 	overflow: hidden;
 }
+.xuexiao_box_top{
+	position: relative;
+	top: -50px;
+	transition: all 2s;
+	opacity: 0;
+}
 .index_talents_title11{
 	margin-top: 65px;
 }
@@ -870,6 +888,10 @@
 .xuexiao_name{
 	width: 1200px;
 	height: 410px;
+	position: relative;
+	top: 50px;
+	transition: all 2s;
+	opacity: 0;
 }
 .index_talents_left1{
 	left: 440px

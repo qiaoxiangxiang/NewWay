@@ -6,10 +6,10 @@ $(".top").append(`
     <!-- 一级nav -->
     <ul class="nav">
         <li class="nav_li"><a href="../index/index.html">首页</a></li>
-        <li class="nav_li"><a href="../case/case_index.html">教育服务</a></li>
+        <li class="nav_li"><a href="javascript:;">教育服务</a></li>
         <li class="nav_li"><a href="../case/case_index.html">示范案例</a></li>
         <li class="nav_li"><a href="../case/case_index.html">教育研究</a></li>
-        <li class="nav_li"><a href="../case/case_index.html">技能竞赛</a></li>
+        <li class="nav_li"><a href="javascript:;">技能竞赛</a></li>
         <li class="nav_li"><a href="../journalism/journalism.html">新闻动态</a></li>
         <li class="nav_li"><a href="../ecological/ecological_index.html" >合作与生态</a></li>
         <li class="nav_li"><a href="../company/introduce.html">关于新道</a></li>
@@ -231,7 +231,7 @@ $(".top").append(`
                         </ul>
                         <ul class="box_jiaoyu_ul1_li_div_ul">
                             <li class="box_jiaoyu_ul1_li_div_ul_li1 box_jiaoyu_ul2_li">特训营</li>
-                            <a href="">
+                            <a href="https://cloud.seentao.com/TrainingCamp" target="_blank">
                                 <li class="box_jiaoyu_ul1_li_div_ul_li3">管理型财会实战人才特训营</li>
                             </a>
                             <a href="">
@@ -639,18 +639,18 @@ $(".nav_li").on("mouseenter", function (e) {
     $(".top").css("background","rgba(0,0,0,.85)");
     e.stopPropagation ? e.stopPropagation() : window.event.cancelBubble = true;
     var index = $(this).index();
-    $(".nav_content_box").eq(index).slideDown().siblings().slideUp();
+    $(".nav_content_box").eq(index).slideDown().siblings().hide();
     $(".contents").on("mouseenter", function () {
     
-        $(".nav_content_box").eq(index).hide();
+        $(".nav_content_box").eq(index).slideUp();
     })
     $(".content").on("mouseenter", function () {
     
-        $(".nav_content_box").eq(index).hide();
+        $(".nav_content_box").eq(index).slideUp();
     })
     $(".index_content").on("mouseenter", function () {
     
-        $(".nav_content_box").eq(index).hide();
+        $(".nav_content_box").eq(index).slideUp();
     })
 
 })

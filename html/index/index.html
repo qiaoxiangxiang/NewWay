@@ -303,7 +303,7 @@
 
             <!--  直播-->
             <div class="index_newway_lives">
-                <div class="ecological_index_content">
+                <div class="ecological_index_content ecological_index_content1">
                     <ul class="clear">
                         <li class="ecological_index_news_list">
                             <p class="ecological_news_title">
@@ -404,7 +404,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="index_newway_lives_bottom">
+                <div class="index_newway_lives_bottom index_newway_lives_bottom1">
                     <div class="newway_lives_bottom_tiile">
                         <p class="ecological_news_title ecological_news_title1">
                             <img class="ecological_news_img" src="../../img/home/yuanxiao_03.png"> 新道专题
@@ -754,13 +754,14 @@
             <!-- 合作学校 -->
             <div class="xuexiao">
                 <div class="xuexiao_box">
-                    <p class="index_talents_title1 index_talents_title11">
-                        <img src="../../img/home/index_03.png" class="index_talents_left index_talents_left1">合作
-                        <span class="index_red_color1">学校</span>
-                        <img src="../../img/home/index_05.png" class="index_talents_right index_talents_right1">
-                    </p>
-                    <p class="index_talents_title2">合作互联网院校已达2000多家，其中战略合作知名院校已达200多家</p>
-                
+                    <div class="xuexiao_box_top">
+                        <p class="index_talents_title1 index_talents_title11">
+                            <img src="../../img/home/index_03.png" class="index_talents_left index_talents_left1">合作
+                            <span class="index_red_color1">学校</span>
+                            <img src="../../img/home/index_05.png" class="index_talents_right index_talents_right1">
+                        </p>
+                        <p class="index_talents_title2">合作互联网院校已达2000多家，其中战略合作知名院校已达200多家</p>
+                    </div>
                     <div class="xuexiao_name">
                         <div class="swiper-container swiper_xuexiao">
                             <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1411px, 0px, 0px);">
@@ -970,10 +971,10 @@
     window.onload = function () {
         var mySwiper = new Swiper('.swiper_container', {
             loop: true,
-            /* autoplay: {
+             autoplay: {
                  delay: 3000,
                  disableOnInteraction: false,
-             },*/
+             },
             initialSlide: 0,
             observer: true,//修改swiper自己或子元素时，自动初始化swiper
             observeParents: true,//修改swiper的父元素时，自动初始化swiper
@@ -991,10 +992,10 @@
 
         var mySwiper = new Swiper('.swiper_xuexiao', {
             loop: true,
-            /* autoplay: {
+             autoplay: {
                  delay: 3000,
                  disableOnInteraction: false,
-             },*/
+             },
             initialSlide: 0,
             observer: true,//修改swiper自己或子元素时，自动初始化swiper
             observeParents: true,//修改swiper的父元素时，自动初始化swiper
@@ -1244,7 +1245,9 @@
 
     }
 
-    var app_body = document.getElementById("app_body")
+    //滚动
+
+    /*var app_body = document.getElementById("app_body")
     var topscroll = 0;
     var num = 0;
     $("#app_body").css({ "width": "100%", "height": $(window).height() })
@@ -1255,17 +1258,74 @@
         if (num > 0) {
             return
         } else {
+
             if (app_body.scrollTop >= 500 && app_body.scrollTop <= 1190) {
                 $(".ball").css({ "marginTop": "-195px", "opacity": "1" })
                 $(".index_sever").css({ "top": "0px", "opacity": "1" })
             };
-
+            if (app_body.scrollTop >= 1400 && app_body.scrollTop <= 1750) {
+                $(".ecological_index_content1").css({ "top": "0px", "opacity": "1" })
+            };
+            if (app_body.scrollTop >= 1900 && app_body.scrollTop <= 2150) {
+                $(".index_newway_lives_bottom1").css({ "top": "0px", "opacity": "1" })
+            };
+            if (app_body.scrollTop >= 2250 && app_body.scrollTop <= 2800) {
+                $(".xuexiao_box_top").css({ "top": "0px", "opacity": "1" })
+                $(".xuexiao_name").css({ "top": "0px", "opacity": "1" })
+            };
         }
 
         topscroll = app_body.scrollTop;
-    };
+    };*/
+
+    $(window).scroll(function(){
+        if (($(".index_newway").offset().top - $(this).scrollTop()) < $(".index_newway").height() ) {
+            $(".ball").css({ "marginTop": "-195px", "opacity": "1" })
+            $(".index_sever").css({ "top": "0px", "opacity": "1" })
+        };
+        if (($(".ecological_index_content1").offset().top - $(this).scrollTop()) < $(".ecological_index_content1").height()+300) {
+            $(".ecological_index_content1").css({ "top": "0px", "opacity": "1" })
+        };
+        if (($(".index_newway_lives_bottom1").offset().top - $(this).scrollTop()) < $(".index_newway_lives_bottom1").height()+400) {
+            $(".index_newway_lives_bottom1").css({ "top": "0px", "opacity": "1" })
+        };
+        if (($(".xuexiao_box_top").offset().top - $(this).scrollTop()) < $(".xuexiao_box_top").height()+800) {
+            $(".xuexiao_box_top").css({ "top": "0px", "opacity": "1" })
+            $(".xuexiao_name").css({ "top": "0px", "opacity": "1" })
+        };
+          
+    });
 
 
+
+// 头部
+
+$(".top").css("background","rgba(0,0,0,0)");
+$(".nav_li").on("mouseenter", function (e) {
+    console.log($(this).index())
+
+    $(".top").css("background","rgba(0,0,0,.85)");
+    e.stopPropagation ? e.stopPropagation() : window.event.cancelBubble = true;
+    var index = $(this).index();
+    $(".nav_content_box").eq(index).siblings().slideUp().stop(true,true).end().slideDown();
+    $(".contents").on("mouseenter", function () {
+    
+        $(".nav_content_box").eq(index).hide();
+    })
+    $(".content").on("mouseenter", function () {
+    
+        $(".nav_content_box").eq(index).hide();
+    })
+    $(".index_content").on("mouseenter", function () {
+    
+        $(".nav_content_box").eq(index).hide();
+    })
+
+})
+
+$(".top").on("mouseleave", function() {
+    $(".top").css("background","rgba(0,0,0,0)");
+})
 
 
 
